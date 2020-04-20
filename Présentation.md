@@ -28,6 +28,7 @@ La premiere chose à faire une fois le HackRF reçu, il faut mettre à jour le f
 
 Pour cela, se rendre sur le github de [Michael Ossmann](https://github.com/mossmann), l'un des menbres de Great Scott Gadget.  
 Télecharger son [Repo HackRF](https://github.com/mossmann/hackrf)  
+
 pour installer l'image standard du firmware :  
 __hackrf_spiflash -w hackrf_one_usb.bin__
 
