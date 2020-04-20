@@ -50,3 +50,7 @@ __hackrf_sweep__ : Commande qui va balayer un champ de fréquences et l'analyser
 __hackrf_spiflash__ : Mettre à jour le firmware 
 
 __hackrf_cpldjtag__ : Mettre à jour le cpld
+
+
+# Petit rappel utile - convertion MHz - Ghz 
+![Scan](https://user-images.githubusercontent.com/39098396/79741752-109b2e00-8302-11ea-80d2-f7132bdcff0b.png)
