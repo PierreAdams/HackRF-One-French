@@ -7,7 +7,7 @@ __avantage__ : la puissance du pc permet de traiter les signaux
   
 le HackRF est un outils de SDR, crée par[Great Scott Gadget](https://greatscottgadgets.com)  
 ![Scan](https://user-images.githubusercontent.com/39098396/79736639-6d92e600-82fa-11ea-8e76-a5e6a3ea749a.jpeg)  
-__prix__ : environ 300€ (Antenne comprise)
+__prix__ : environ 300€ (Antenne comprise)  
 __Reception et emission__ : de 10Mhz à 6Ghz
 
 
