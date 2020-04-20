@@ -35,7 +35,7 @@ __hackrf_spiflash -w hackrf_one_usb.bin__
 Pour mettre a jour le CPLD (Complex Programmable Logic Device)   
 __hackrf_cpldjtag -x sgpio_if/default.xsvf__
 
-pour verifier si la mise à jour à été appliqué :  
+pour verifier si la mise à jour à été appliqué :    
 __hackrf_info__
 ``` hackrf_info 
 hackrf_info version: unknown
