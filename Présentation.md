@@ -24,7 +24,7 @@ Havoc est un firmware pour le portapack devellopé par le grand [furtek](https:/
 
 # Premier Branchement + Mise à jour du Firmware :  
 
-La premiere chose à faire une fois le HackRF reçu, il faut mettre à jour le firmware :   
+La première chose à faire une fois le HackRF reçu, il faut mettre à jour le firmware :   
 
 Pour cela, se rendre sur le github de [Michael Ossmann](https://github.com/mossmann), l'un des menbres de Great Scott Gadget.  
 Télecharger son [Repo HackRF](https://github.com/mossmann/hackrf)  
