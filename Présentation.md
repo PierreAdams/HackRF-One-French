@@ -43,7 +43,7 @@ __Hackrf_info__ : lors du branchement du hackRF One, cette commande permet d'avo
 __Hackrf_transfer__ : permet de capturer un transfere et de le restransmettre par la suite   
 exemple photo
 
-__hackrf_debug__ : permet de faire un debug du hackrf (à approfonfir) 
+__hackrf_debug__ : Commande de debug du hackRF One 
 
 __hackrf_sweep__ : Commande qui va balayer un champ de fréquences et l'analyser 
 
