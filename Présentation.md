@@ -70,6 +70,6 @@ __hackrf_cpldjtag__ : Mettre à jour le cpld
 # Pratique  
 Passons maintenant à la pratique,   
 pour se faire je vous conseile quelque logiciels de scan fréquence (sous linux bien sur) pas de Windob ici !  
-[sdr angel](https://github.com/f4exb/sdrangel/releases)  
+[sdr angel](https://github.com/f4exb/sdrangel)  
 [Spectrum Analyzer](https://github.com/pavsa/hackrf-spectrum-analyzer)  
 [gqrx](https://gqrx.dk/)  
