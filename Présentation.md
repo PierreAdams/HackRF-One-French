@@ -73,3 +73,10 @@ pour se faire je vous conseile quelque logiciels de scan fréquence (sous linux 
 [sdr angel](https://github.com/f4exb/sdrangel)  
 [Spectrum Analyzer](https://github.com/pavsa/hackrf-spectrum-analyzer)  
 [gqrx](https://gqrx.dk/)  
+
+J'utilise gqrx que je trouve très pratique et simple d'utilisation
+Nous allons pour commencer essayer d'intercepter un signal d'une telecommand de portail :
+(Photo Telecomand)
+la première choses a faire est de trouver sur quel fréquence la telecommand va communiquer avec le portail
+
+
