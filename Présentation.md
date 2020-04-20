@@ -36,8 +36,17 @@ Pour mettre a jour le CPLD (Complex Programmable Logic Device)
 __hackrf_cpldjtag -x sgpio_if/default.xsvf__
 
 pour verifier si la mise à jour à été appliqué :  
-__Hackrf_info__  
-![Scan](https://user-images.githubusercontent.com/39098396/79737911-53f29e00-82fc-11ea-8fd5-5651120f5441.png)  
+``` hackrf_info 
+hackrf_info version: unknown
+libhackrf version: unknown (0.5)
+Found HackRF
+Index: 0
+Serial number: 000000000000000057b068dc22451163
+Board ID Number: 2 (HackRF One)
+Firmware Version: 2018.01.1 (API:1.02)
+Part ID Number: 0xa000cb3c 0x00724357
+```
+
 # Commande HackRF One : 
 
 __Hackrf_info__ : lors du branchement du hackRF One, cette commande permet d'avoir des informations sur la version du hackRF One :  
