@@ -33,14 +33,12 @@ __hackrf_spiflash -w hackrf_one_usb.bin__
 Pour mettre a jour le CPLD (Complex Programmable Logic Device)   
 __hackrf_cpldjtag -x sgpio_if/default.xsvf__
 
-pour verifier si la mise à jour à été appliqyé :   
-__Hackrf_info__
-
+pour verifier si la mise à jour à été appliqué :  
+__Hackrf_info__  
+![Scan](https://user-images.githubusercontent.com/39098396/79737911-53f29e00-82fc-11ea-8fd5-5651120f5441.png)  
 # Commande HackRF One : 
 
 __Hackrf_info__ : lors du branchement du hackRF One, cette commande permet d'avoir des informations sur la version du hackRF One :  
-
-![Scan](https://user-images.githubusercontent.com/39098396/79737911-53f29e00-82fc-11ea-8fd5-5651120f5441.png)  
 
 __Hackrf_transfer__ : permet de capturer un transfere et de le restransmettre par la suite   
 exemple photo
@@ -49,6 +47,6 @@ __hackrf_debug__ : permet de faire un debug du hackrf (à approfonfir)
 
 __hackrf_sweep__ : Commande qui va balayer un champ de fréquences et l'analyser 
 
-__hackrf_spiflash__ : 
+__hackrf_spiflash__ : Mettre à jour le firmware 
 
-__hackrf_cpldjtag__ : 
+__hackrf_cpldjtag__ : Mettre à jour le cpld
