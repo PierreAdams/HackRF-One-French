@@ -65,3 +65,11 @@ __hackrf_cpldjtag__ : Mettre à jour le cpld
 
 # Petit rappel utile - convertion MHz - Ghz 
 ![Scan](https://user-images.githubusercontent.com/39098396/79741752-109b2e00-8302-11ea-80d2-f7132bdcff0b.png)
+
+
+#Pratique
+passons maintenant à la pratique 
+pour se faire je vous conseile quelque logiciels de scan fréquence (sous linux bien sur) pas de Windob ici !
+[sdr angel](https://github.com/f4exb/sdrangel/releases)
+[Spectrum Analyzer](https://github.com/pavsa/hackrf-spectrum-analyzer)
+[gqrx](https://gqrx.dk/)
