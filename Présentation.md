@@ -42,8 +42,7 @@ __Hackrf_info__
 
 __Hackrf_info__ : lors du branchement du hackRF One, cette commande permet d'avoir des informations sur la version du hackRF One :  
 
-__Hackrf_transfer__ : permet de capturer un transfere et de le restransmettre par la suite   
-exemple photo
+__Hackrf_transfer__ : permet de capturer un transfere et de le restransmettre par la suite (exemple à venir)
 
 __hackrf_debug__ : Commande de debug du hackRF One 
 
