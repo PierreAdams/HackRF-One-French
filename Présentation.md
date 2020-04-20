@@ -28,10 +28,13 @@ La premiere chose à faire une fois le HackRF reçu, il faut mettre à jour le f
 Pour cela, se rendre sur le github de [Michael Ossmann](https://github.com/mossmann), l'un des menbres de Great Scott Gadget.  
 Télecharger son [Repo HackRF](https://github.com/mossmann/hackrf)  
 pour installer l'image standard du firmware :  
-##### hackrf_spiflash -w hackrf_one_usb.bin
+__hackrf_spiflash -w hackrf_one_usb.bin__
 
-Pour mettre a jour le CPLD (Complex Programmable Logic Device)  
-##### hackrf_cpldjtag -x sgpio_if/default.xsvf
+Pour mettre a jour le CPLD (Complex Programmable Logic Device)   
+__hackrf_cpldjtag -x sgpio_if/default.xsvf__
+
+pour verifier si la mise à jour à été appliqyé : 
+__ Hackrf_info__
 
 # Commande HackRF One : 
 
