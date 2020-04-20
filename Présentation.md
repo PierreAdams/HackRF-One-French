@@ -21,18 +21,18 @@ Havoc est un firmware pour le portapack devellopé par le grand [furtek](https:/
 # Premier Branchement + Mise à jour du Firmware :  
 
 # Commande HackRF One : 
-Hackrf_info : lors du branchement du hackrf One, cette commande permet d'avoir des informations sur la versiion du hackRF One : 
-![Scan](https://user-images.githubusercontent.com/39098396/79737911-53f29e00-82fc-11ea-8fd5-5651120f5441.png)
 
-Hackrf_transfer : permet de capturer un transfere et de le restransmettre par la suite   
+__Hackrf_info__ : lors du branchement du hackrf One, cette commande permet d'avoir des informations sur la versiion du hackRF One :  
+
+![Scan](https://user-images.githubusercontent.com/39098396/79737911-53f29e00-82fc-11ea-8fd5-5651120f5441.png)  
+
+__Hackrf_transfer__ : permet de capturer un transfere et de le restransmettre par la suite   
 exemple photo
 
-petit rappel sur la convertion GHZ et MHZ
+__hackrf_debug__ : permet de faire un debug du hackrf (a approfonfir) 
 
-hackrf_debug : permet de faire un debug du hackrf (a approfonfir) 
+__hackrf_sweep__ : Commande qui va balayer un champ de frequence et l'analyser 
 
-hackrf_sweep : Commande qui va balayer un champ de frequence et l'analyser 
+__hackrf_spiflash__ : 
 
-hackrf_spiflash : 
-
-hackrf_cpldjtag : 
+__hackrf_cpldjtag__ : 
