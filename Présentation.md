@@ -18,3 +18,5 @@ le portapack permet d'avoir une interface graphique directement et d'effectuer d
 Havoc est un firmware pour le portapack devellopé par le grand [furtek](https://github.com/furrtek/portapack-havoc)
 
 ###Premier Branchement + Mise à jour du Firmware :
+
+###Commande HackRF One : 
