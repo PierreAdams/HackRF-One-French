@@ -27,6 +27,11 @@ Havoc est un firmware pour le portapack devellopé par le grand [furtek](https:/
 La premiere chose à faire une fois le HackRF reçu, il faut mettre à jour le firmware :   
 Pour cela, se rendre sur le github de [Michael Ossmann](https://github.com/mossmann), l'un des menbres de Great Scott Gadget.  
 Télecharger son [Repo HackRF](https://github.com/mossmann/hackrf)  
+pour installer l'image standard du firmware :  
+hackrf_spiflash -w hackrf_one_usb.bin
+
+Pour mettre a jour le CPLD (Complex Programmable Logic Device)
+hackrf_cpldjtag -x sgpio_if/default.xsvf
 
 # Commande HackRF One : 
 
@@ -39,7 +44,7 @@ exemple photo
 
 __hackrf_debug__ : permet de faire un debug du hackrf (à approfonfir) 
 
-__hackrf_sweep__ : Commande qui va balayer un champ de frequence et l'analyser 
+__hackrf_sweep__ : Commande qui va balayer un champ de fréquences et l'analyser 
 
 __hackrf_spiflash__ : 
 
