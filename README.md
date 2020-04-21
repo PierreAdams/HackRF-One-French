@@ -70,6 +70,9 @@ __hackrf_cpldjtag__ : Mettre à jour le cpld
 
 
 # Pratique  
+
+## Portail 
+
 Passons maintenant à la pratique,   
 pour se faire je vous conseile quelque logiciels de scan fréquence (sous linux bien sur) pas de Windob ici !  
 [sdr angel](https://github.com/f4exb/sdrangel)  
@@ -109,3 +112,12 @@ figlet Sesame, Ouvre toi !
 hackrf_transfer -s 2 -f 433910000 -t open -a 1 -x 24
 figlet C'est ouvert !  
 ```   
+
+
+## Talkie-Walkie : 
+
+C'est exactement le même procédé nous trouvons la fréquence, capturons le signal, le stockons et le rediffusons a notre guise. 
+
+
+
+
