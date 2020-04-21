@@ -78,7 +78,7 @@ J'utilise gqrx que je trouve très pratique et simple d'utilisation
 Nous allons pour commencer essayer d'intercepter un signal d'une telecommand de portail :
 (Photo Telecomand)
 la première choses a faire est de trouver sur quelle fréquence la telecommande va communiquer avec le portail
-souvent indiquer soit sur la telecommande soit sur le site du constructeur si ce n'est pas indiqué :
+souvent indiquer soit sur la telecommande, soit sur le site du constructeur si c'est pas indiqué :
 > internet est votre ami
 
 
