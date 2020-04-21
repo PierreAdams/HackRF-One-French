@@ -74,11 +74,14 @@ pour se faire je vous conseile quelque logiciels de scan fréquence (sous linux 
 [Spectrum Analyzer](https://github.com/pavsa/hackrf-spectrum-analyzer)  
 [gqrx](https://gqrx.dk/)  
 
-J'utilise gqrx que je trouve très pratique et simple d'utilisation
+J'utilise gqrx que je trouve très pratique, simple d'utilisation et surtout francais (Cocorico).
 Nous allons pour commencer essayer d'intercepter un signal d'une telecommand de portail :
 (Photo Telecomand)
-la première choses a faire est de trouver sur quelle fréquence la telecommande va communiquer avec le portail
+la première choses a faire est de trouver sur quelle fréquence la telecommande va communiquer avec le portail (en géneral 433 Mhz)
 souvent indiquer soit sur la telecommande, soit sur le site du constructeur si c'est pas indiqué :
-> internet est votre ami
+> internet est votre ami  
+Avec gqrx on va pouvoir verifier et ajuster la fréquence (Assurez vous que le logiciel se base sur votre hackRF dans les parametres de gqrx)  
+Une fois sur notre fréquence lorsque nous activons la télecommand nous appercevons bien un signal 
+![Scan](https://user-images.githubusercontent.com/39098396/79851629-e0b55e80-83c5-11ea-8a63-2675dcfc38d9.png)
 
 
