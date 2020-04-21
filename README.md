@@ -90,4 +90,7 @@ Une fois sur notre fréquence lorsque nous activons la télecommand nous apperce
 
 Nous avons donc maintenant une fréquence précise. (433.910000 Mhz)
 Passons ensuite à l'enregistrement : 
-``` hackrf_transfer  ``` 
+``` hackrf_transfer -s 2 -f 433910000 -r open  ``` 
+provoquer le signal pendant l'enregistrement 
+``` hackrf_transfer -s 2 -f 433910000 -t open -a 1 -x 24  ``` 
+puis réinvoquer le signal devant le portail pour l'ouvrir
