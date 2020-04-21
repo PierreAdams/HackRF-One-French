@@ -6,17 +6,17 @@ Software Defined Radio c'est pour faire simple une radio (recepteur/emeteur) rem
 __avantage__ : la puissance du pc permet de traiter les signaux  
  
 # HackRF One  
-le HackRF est un outils de SDR, crée par [Great Scott Gadget](https://greatscottgadgets.com)  
+le HackRF est un outil de SDR, crée par [Great Scott Gadget](https://greatscottgadgets.com)  
 ![Scan](https://user-images.githubusercontent.com/39098396/79736639-6d92e600-82fa-11ea-8e76-a5e6a3ea749a.jpeg)  
 __prix__ : environ 300€ (Antenne comprise)  
 __Reception et emission__ : de 10Mhz à 6Ghz
 
 # PortaPack  
-Le HackRf peut etre integré dans un boite nomée un "PortaPack" [lien github](https://github.com/sharebraind/portapack-hackrf)  
+Le HackRf peut être integré dans un boite nomée un "PortaPack" [lien github](https://github.com/sharebraind/portapack-hackrf)  
 ![Scan](https://user-images.githubusercontent.com/39098396/79736658-72579a00-82fa-11ea-8692-116d2b8a5461.jpeg)  
 __prix__ : 200 €  
-le portapack permet d'avoir une interface graphique directement et d'effectuer des manip direct sur le hackrf One  
-Havoc est un firmware pour le portapack devellopé par le grand [furtek](https://github.com/furrtek/portapack-havoc)
+le portapack permet d'avoir une interface graphique directement et d'effectuer des manips direct sur le hackrf One.  
+Havoc est un firmware pour le portapack développé par le grand [furtek](https://github.com/furrtek/portapack-havoc)
 
 
 --------------------------------------------------------------------
@@ -26,16 +26,16 @@ Havoc est un firmware pour le portapack devellopé par le grand [furtek](https:/
 
 La première chose à faire une fois le HackRF reçu, il faut mettre à jour le firmware :   
 
-Pour cela, se rendre sur le github de [Michael Ossmann](https://github.com/mossmann), l'un des menbres de Great Scott Gadget.  
+Pour cela, se rendre sur le github de [Michael Ossmann](https://github.com/mossmann), l'un des menbres de Great Scott Gadget et le createur du Hackrf One.  
 Télecharger son [Repo HackRF](https://github.com/mossmann/hackrf)  
 
 pour installer l'image standard du firmware :  
 __hackrf_spiflash -w hackrf_one_usb.bin__
 
-Pour mettre a jour le CPLD (Complex Programmable Logic Device)   
+Pour mettre à jour le CPLD (Complex Programmable Logic Device)   
 __hackrf_cpldjtag -x sgpio_if/default.xsvf__
 
-pour verifier si la mise à jour à été appliqué :    
+Verifier si la mise à jour à été appliquée :    
 __hackrf_info__
 ``` hackrf_info 
 hackrf_info version: unknown
@@ -77,6 +77,8 @@ pour se faire je vous conseile quelque logiciels de scan fréquence (sous linux 
 J'utilise gqrx que je trouve très pratique et simple d'utilisation
 Nous allons pour commencer essayer d'intercepter un signal d'une telecommand de portail :
 (Photo Telecomand)
-la première choses a faire est de trouver sur quel fréquence la telecommand va communiquer avec le portail
+la première choses a faire est de trouver sur quelle fréquence la telecommande va communiquer avec le portail
+souvent indiquer soit sur la telecommande soit sur le site du constructeur si vous ne trouver pas 
+> internet est votre ami
 
 
