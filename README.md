@@ -24,7 +24,9 @@ Havoc est un firmware pour le portapack développé par le grand [furtek](https:
 
 # Premier Branchement + Mise à jour du Firmware :  
 
-La première chose à faire une fois le HackRF reçu, il faut mettre à jour le firmware :   
+La première chose à faire une fois le HackRF reçu, il faut mettre à jour le firmware et installer les paquets HackRf:   
+
+``` apt install hackrf ``` 
 
 Pour cela, se rendre sur le github de [Michael Ossmann](https://github.com/mossmann), l'un des menbres de Great Scott Gadget et le createur du Hackrf One.  
 Télecharger son [Repo HackRF](https://github.com/mossmann/hackrf)  
@@ -86,4 +88,6 @@ Une fois sur notre fréquence lorsque nous activons la télecommand nous apperce
 
 ![Scan](https://user-images.githubusercontent.com/39098396/79851629-e0b55e80-83c5-11ea-8a63-2675dcfc38d9.png)
 
-
+Nous avons donc maintenant une fréquence précise. (433.910000 Mhz)
+Passons ensuite à l'enregistrement : 
+``` hackrf_transfer  ``` 
