@@ -1,5 +1,5 @@
 # HackRF-One
-Présentation et démonstration des fonctionnalité du HackRF One
+Présentation et démonstration des fonctionnalités du HackRF One
 # SDR 
 Tout d'abord il est intéressant de savoir ce qu'est le SDR : 
 Software Defined Radio c'est pour faire simple une radio (recepteur/emeteur) remplacé logicielement  
