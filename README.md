@@ -112,11 +112,11 @@ figlet Sesame, Ouvre toi !
 hackrf_transfer -s 2 -f 433910000 -t open -a 1 -x 24
 figlet C'est ouvert !  
 ```   
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSY)
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)]()
 
 ## Talkie-Walkie : 
 
-C'est exactement le même procédé nous trouvons la fréquence, capturons le signal, le stockons et le rediffusons a notre guise. 
+C'est exactement le même procédé nous trouvons la fréquence, capturons le signal, le stockons et le rediffusons à notre guise. 
 
 Dans mon cas, je capte le signal sur la fréquence 446 Mhz 
 je capture une séquence d'apell par exemple  : 
@@ -124,5 +124,6 @@ je capture une séquence d'apell par exemple  :
 et je la redifusse !     
 ```hackrf_transfer -s 2 -f 446000000 -r HackyWalkie```   
 
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)]()
 
 
