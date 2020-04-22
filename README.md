@@ -75,9 +75,9 @@ __hackrf_cpldjtag__ : Mettre à jour le cpld
 
 Passons maintenant à la pratique,   
 pour se faire je vous conseile quelque logiciels de scan fréquence (sous linux bien sur) pas de Windob ici !  
-[sdr angel](https://github.com/f4exb/sdrangel)  
-[Spectrum Analyzer](https://github.com/pavsa/hackrf-spectrum-analyzer)  
-[gqrx](https://gqrx.dk/)  
+*[sdr angel](https://github.com/f4exb/sdrangel)  
+*[Spectrum Analyzer](https://github.com/pavsa/hackrf-spectrum-analyzer)  
+*[gqrx](https://gqrx.dk/)  
 
 J'utilise gqrx que je trouve très pratique, simple d'utilisation et surtout francais (Cocorico).
 Nous allons pour commencer essayer d'intercepter un signal d'une telecommand de portail :
