@@ -112,7 +112,7 @@ figlet Sesame, Ouvre toi !
 hackrf_transfer -s 2 -f 433910000 -t open -a 1 -x 24
 figlet C'est ouvert !  
 ```   
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)]()
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://www.youtube.com/watch?v=HM1JgZUscY0)
 
 ## Talkie-Walkie : 
 
@@ -124,6 +124,6 @@ je capture une séquence d'apell par exemple  :
 et je la redifusse !     
 ```hackrf_transfer -s 2 -f 446000000 -r HackyWalkie```   
 
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)]()
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://www.youtube.com/watch?v=4-qAzXwfjRY)
 
 
