@@ -54,7 +54,7 @@ Part ID Number: 0xa000cb3c 0x00724357
 
 __Hackrf_info__ : lors du branchement du hackRF One, cette commande permet d'avoir des informations sur la version du hackRF One :  
 
-__Hackrf_transfer__ : permet de capturer un transfere et de le restransmettre par la suite (exemple à venir)
+__Hackrf_transfer__ : permet de capturer un transfère et de le restransmettre par la suite (exemple à venir)
 
 __hackrf_debug__ : Commande de debug du hackRF One 
 
@@ -124,6 +124,6 @@ je capture une séquence d'apell par exemple  :
 et je la redifusse !     
 ```hackrf_transfer -s 2 -f 446000000 -r HackyWalkie```   
 
-[![Watch the video](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR02p7GMwHO3fAuSFZ2qX_PZqqWhLcTGkDVJfCc88AuJIrzON8F&usqp=CAU)](https://www.youtube.com/watch?v=4-qAzXwfjRY)
+[![Watch the video](https://www.youtube.com/watch?v=4-qAzXwfjRY)](https://www.youtube.com/watch?v=4-qAzXwfjRY)
 
 
