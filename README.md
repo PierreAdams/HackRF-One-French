@@ -124,6 +124,6 @@ je capture une séquence d'apell par exemple  :
 et je la redifusse !     
 ```hackrf_transfer -s 2 -f 446000000 -r HackyWalkie```   
 
-[![Regarder la Vidéo](https://www.youtube.com/watch?v=4-qAzXwfjRY)](https://www.youtube.com/watch?v=4-qAzXwfjRY)
+[![Regarder la Vidéo](https://www.youtube.com/watch?v=4-qAzXwfjRY)
 
 
