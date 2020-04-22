@@ -3,7 +3,7 @@ Présentation et démonstration des fonctionnalités du HackRF One
 # SDR 
 Tout d'abord il est intéressant de savoir ce qu'est le SDR : 
 Software Defined Radio c'est pour faire simple, une radio (recepteur/emeteur) remplacée logicielement  
-__avantage__ : la puissance du pc permet de traiter les signaux  
+__Avantage__ : la puissance du pc permet de traiter les signaux  
  
 # HackRF One  
 le HackRF est un outil de SDR, crée par [Great Scott Gadget](https://greatscottgadgets.com)  
@@ -24,7 +24,7 @@ Havoc est un firmware pour le portapack développé par le grand [furtek](https:
 
 # Premier Branchement + Mise à jour du Firmware :  
 
-La première chose à faire une fois le HackRF reçu, il faut mettre à jour le firmware et installer les paquets HackRf:   
+La première chose à faire une fois le HackRF reçu, il faut mettre à jour le firmware et installer les paquets HackRF:   
 
 ``` apt install hackrf ``` 
 
