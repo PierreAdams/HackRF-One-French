@@ -50,11 +50,11 @@ Firmware Version: 2018.01.1 (API:1.02)
 Part ID Number: 0xa000cb3c 0x00724357
 ```
 
-# Commande HackRF One : 
+# Commandes HackRF One : 
 
-__Hackrf_info__ : lors du branchement du hackRF One, cette commande permet d'avoir des informations sur la version du hackRF One :  
+__Hackrf_info__ : lors du branchement du hackRF One, cette commande permet d'avoir des informations sur sa version   
 
-__Hackrf_transfer__ : permet de capturer un transfère et de le restransmettre par la suite (exemple à venir)
+__Hackrf_transfer__ : permet de capturer un transfère et de le restransmettre par la suite
 
 __hackrf_debug__ : Commande de debug du hackRF One 
 
@@ -74,20 +74,18 @@ __hackrf_cpldjtag__ : Mettre à jour le cpld
 ## Portail 
 
 Passons maintenant à la pratique,   
-pour se faire je vous conseile quelque logiciels de scan fréquence (sous linux bien sur) pas de Windob ici !  
-* [sdr angel](https://github.com/f4exb/sdrangel)  
+pour se faire je vous conseile quelques logiciels de SDR sous linux!  
+* [sdr angel](https://github.com/f4exb/sdrangel) 
 * [Spectrum Analyzer](https://github.com/pavsa/hackrf-spectrum-analyzer)  
-* [gqrx](https://gqrx.dk/)  
+* [gqrx](https://gqrx.dk/)
 
-J'utilise gqrx que je trouve très pratique, simple d'utilisation et surtout francais (Cocorico).
-Nous allons pour commencer essayer d'intercepter un signal d'une telecommand de portail :
-(Photo Telecomand)
-la première choses a faire est de trouver sur quelle fréquence la telecommande va communiquer avec le portail (en géneral 433 Mhz)
-souvent indiquer soit sur la telecommande, soit sur le site du constructeur si c'est pas indiqué :
+J'utilise gqrx que je trouve très pratique, simple d'utilisation.
+Nous allons pour commencer, essayer d'intercepter un signal d'une telecommande de portail :  
+la première choses a faire est de trouver sur quelle fréquence la telecommande va communiquer avec le portail (en géneral 433 Mhz) souvent indiquer soit sur la telecommande, soit sur le site du constructeur si c'est pas indiqué :  
 > internet est votre ami 
 
 Avec gqrx on va pouvoir verifier et ajuster la fréquence (Assurez vous que le logiciel se base sur votre hackRF dans les parametres de gqrx)  
-Une fois sur notre fréquence lorsque nous activons la télecommand nous appercevons bien un signal   
+Une fois sur notre fréquence lorsque nous activons la télecommande nous appercevons bien le signal emis  
 
 ![Scan](https://user-images.githubusercontent.com/39098396/79851629-e0b55e80-83c5-11ea-8a63-2675dcfc38d9.png)
 
@@ -98,14 +96,14 @@ provoquer le signal pendant l'enregistrement
 ``` hackrf_transfer -s 2 -f 433910000 -t open -a 1 -x 24  ```   
 puis réinvoquer le signal devant le portail pour l'ouvrir  
 options  utilisées 
-- s : 
-- f : 
-- r : Nom du fichier ou va etre stocké notre signal 
-- t : Nom du fichier ou va etre lu notre signal (afin de le retransmettre)
-- a : Amplifier le signal
+- s : précise le taux d'echantillons en MHz
+- f : précise la fréquence exact enregistré ou diffusé
+- r : Nom du fichier ou va être stocké notre signal 
+- t : Nom du fichier ou va être lu notre signal (afin de le retransmettre)
+- a : Amplifie le signal
 - x : le gain entre 0 et 47 dB (en Décibel)
 
-On peut crée un script pour plus de proffesionalisme : 
+On peut créer un script pour plus de proffesionalisme : 
 
 ```
 figlet Sesame, Ouvre toi ! 
@@ -121,7 +119,7 @@ C'est exactement le même procédé nous trouvons la fréquence, capturons le si
 Dans mon cas, je capte le signal sur la fréquence 446 Mhz 
 je capture une séquence d'apell par exemple  : 
 ```hackrf_transfer -s 2 -f 446000000 -r HackyWalkie```  
-et je la redifusse !     
+et la difuse    
 ```hackrf_transfer -s 2 -f 446000000 -r HackyWalkie```   
 
 ![Regarder la Vidéo](https://www.youtube.com/watch?v=4-qAzXwfjRY)
