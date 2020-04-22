@@ -118,6 +118,11 @@ figlet C'est ouvert !
 
 C'est exactement le même procédé nous trouvons la fréquence, capturons le signal, le stockons et le rediffusons a notre guise. 
 
+Dans mon cas, je capte le signal sur la fréquence 446 Mhz 
+je capture une séquence d'apell par exemple  : 
+```hackrf_transfer -s 2 -f 446000000 -r HackyWalkie```  
+et je la redifusse !     
+```hackrf_transfer -s 2 -f 446000000 -r HackyWalkie```   
 
 
 
