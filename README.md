@@ -12,7 +12,7 @@ __prix__ : environ 300€ (Antenne comprise)
 __Reception et emission__ : de 10Mhz à 6Ghz
 
 # PortaPack  
-Le HackRf peut être integré dans un boite nomée un "PortaPack" [lien github](https://github.com/sharebraind/portapack-hackrf)  
+Le HackRf peut être integré dans un boite nomée un "PortaPack" [lien github](https://github.com/furrtek/portapack-havoc)  
 ![Scan](https://user-images.githubusercontent.com/39098396/79736658-72579a00-82fa-11ea-8692-116d2b8a5461.jpeg)  
 __prix__ : 200 €  
 le portapack permet d'avoir une interface graphique directement et d'effectuer des manips sur le hackRF One.  
