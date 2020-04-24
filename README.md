@@ -108,7 +108,7 @@ options  utilisées
 - a : Amplifie le signal
 - x : le gain entre 0 et 47 dB (en Décibel)
 
-On peut créer un script pour plus de proffesionalisme : 
+On peut créer un script pour plus de proffesionnalisme : 
 
 ```
 figlet Sesame, Ouvre toi ! 
