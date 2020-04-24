@@ -19,7 +19,7 @@ le portapack permet d'avoir une interface graphique directement et d'effectuer d
 - le firmware officiel, développer par sharebrained : https://github.com/sharebrained/portapack-hackrf/  
 - Havoc est un firmware __Non officiel__ pour le portapack développé par le grand [furtek](https://github.com/furrtek/portapack-havoc)  
 
-* Note : il existe des versions non officiels des portapacks pour hackRF One pour l'avoir testé, celui fonctionne tout aussi bien : (https://www.amazon.fr/TOOGOO-Panneau-Tactile-Portapack-lhorloge/dp/B07WHJ8WGX/ref=sr_1_fkmr1_2?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=portapack+bogood&qid=1587725047&sr=8-2-fkmr1)
+> Note : il existe des versions non officiels des portapacks pour hackRF One pour l'avoir testé, celui fonctionne tout aussi bien : (https://www.amazon.fr/TOOGOO-Panneau-Tactile-Portapack-lhorloge/dp/B07WHJ8WGX/ref=sr_1_fkmr1_2?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=portapack+bogood&qid=1587725047&sr=8-2-fkmr1)
 
 
 --------------------------------------------------------------------
