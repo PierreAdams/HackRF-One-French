@@ -150,7 +150,6 @@ Sur le portapack, dans l'onglet "Capture" nous allons régler la fréquence sur 
 Une fois le signal capturé : se rendre dans la partie "Replay", puis ouvrir le fichier contenant le sginal capturé à l'instant. (éventuellement régler la fréquence de diffusion)
 
 
-![Scan](https://user-images.githubusercontent.com/39098396/80214776-b371e600-863b-11ea-8f68-dff7b8b85ac1.PNG)
-
-
-
+![Scan](https://user-images.githubusercontent.com/39098396/80214776-b371e600-863b-11ea-8f68-dff7b8b85ac1.PNG)  
+ 
+ __et hop le signal est rediffusé !!__ 
