@@ -22,7 +22,7 @@ le portapack permet d'avoir une interface graphique directement et d'effectuer d
 __Note :__ il existe des versions non officiels des portapacks pour hackRF One pour l'avoir testé, celui fonctionne tout aussi bien : ![Lien Amazon](https://www.amazon.fr/TOOGOO-Panneau-Tactile-Portapack-lhorloge/dp/B07WHJ8WGX/ref=sr_1_fkmr1_2?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=portapack+bogood&qid=1587725047&sr=8-2-fkmr1)  
 
 Pour installer le firmware __Havoc__ sur Windows, une vidéo youtube trés claire à été réaliser sur le sujet :   
-[Lien youtube](https://www.youtube.com/watch?v=f0S9jWkRaQU.gif)
+[Lien Youtube](https://www.youtube.com/watch?v=f0S9jWkRaQU.gif)
 
 --------------------------------------------------------------------
 
@@ -132,5 +132,16 @@ et la difuse
 
 # Pratique - Portapack
 
-Une fois votre portapack reçu, 
+Avec le portapack, toutes les manipulations effectuées juste avant pourront desormais être réalisés directement sur le portapack. 
+
+Prenons par exemple, une lampe avec une télécommande Hertzienne, nous pouvons voir qu'elle communique avec la lampe sur la fréquence 433.920 Mhz
+![Scan](https://user-images.githubusercontent.com/39098396/80207755-0a24f300-862f-11ea-8872-eb2eecb73d5a.JPG)  
+
+Sur le portapack, dans l'onglet "Capture" nous allons regler la frquence sur 433.9, écouter le signal puis l'enregistrer afin de le rediffuser par la suite. 
+
+
+
+
+
+
 
