@@ -78,9 +78,9 @@ __hackrf_cpldjtag__ : Mettre à jour le cpld
 ![Scan](https://user-images.githubusercontent.com/39098396/79741752-109b2e00-8302-11ea-80d2-f7132bdcff0b.png)
 
 
-# Pratique  
+# Pratique :  
 
-## Portail 
+## Portail :  
 
 Passons maintenant à la pratique,   
 pour se faire je vous conseile quelques logiciels de SDR sous linux!  
@@ -134,7 +134,7 @@ et la difuse
 ![Regarder la Vidéo](https://www.youtube.com/watch?v=4-qAzXwfjRY)
 
 
-# Pratique - Portapack
+# Pratique - Portapack :  
 
 Avec le portapack, toutes les manipulations effectuées juste avant pourront desormais être réalisés directement sur le portapack. 
 
@@ -157,4 +157,9 @@ Une fois le signal capturé : se rendre dans la partie "Replay", puis ouvrir le 
 ![Scan](https://user-images.githubusercontent.com/39098396/80214776-b371e600-863b-11ea-8f68-dff7b8b85ac1.PNG)  
  
  __et hop le signal est rediffusé !!__ 
+
+# possibilités avec le portapack : 
+
+L'onglet "Search/CLose Call permet d'identifier exactement la fréquence d'un signal"
+On précise un fenêtre, et on déclenche l'émetteur : 
 
