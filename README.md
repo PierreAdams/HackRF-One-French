@@ -160,6 +160,7 @@ Une fois le signal capturé : se rendre dans la partie "Replay", puis ouvrir le 
 
 # possibilités avec le portapack : 
 
-L'onglet "Search/CLose Call permet d'identifier exactement la fréquence d'un signal"
-On précise un fenêtre, et on déclenche l'émetteur : 
+L'onglet __"Search/CLose Call"__ permet d'identifier exactement la fréquence d'un signal, on précise un fenêtre, et on déclenche l'émetteur :   
+![Scan](https://user-images.githubusercontent.com/39098396/80237787-9bab5980-865d-11ea-888f-cdbe48752591.PNG)  
+
 
