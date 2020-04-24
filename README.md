@@ -24,6 +24,8 @@ __Note :__ il existe des versions non officiels des portapacks pour hackRF One p
 Pour installer le firmware __Havoc__ sur Windows, une vidéo youtube trés claire à été réaliser sur le sujet :   
 [Lien Youtube](https://www.youtube.com/watch?v=f0S9jWkRaQU.gif)
 
+Lorsque le firmware de votre portapack sera installé il sera toujours possible d'activer le mode hackRF (sur pc) il suffit d'activer l'option __"HackRF Mode"__ dans le menu.
+![Scan](https://user-images.githubusercontent.com/39098396/80219795-42363100-8643-11ea-89bd-fab7d90ed604.PNG)  
 --------------------------------------------------------------------
 
 
