@@ -135,7 +135,8 @@ et la difuse
 Avec le portapack, toutes les manipulations effectuées juste avant pourront desormais être réalisés directement sur le portapack. 
 
 Prenons par exemple, une lampe avec une télécommande Hertzienne, nous pouvons voir qu'elle communique avec la lampe sur la fréquence 433.920 Mhz  
-![Scan](https://user-images.githubusercontent.com/39098396/80207755-0a24f300-862f-11ea-8872-eb2eecb73d5a.JPG&s=200)
+
+![Scan](https://user-images.githubusercontent.com/39098396/80212189-55430400-8637-11ea-9ea9-405f934ed19b.JPG)
 
 Sur le portapack, dans l'onglet "Capture" nous allons regler la frquence sur 433.9, écouter le signal puis l'enregistrer afin de le rediffuser par la suite. 
 
