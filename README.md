@@ -138,8 +138,9 @@ Voici le menu d'__Havoc__ :
 
 ![Scan](https://user-images.githubusercontent.com/39098396/80214273-d8b22480-863a-11ea-9671-3e846ce77b4f.PNG)
 
-Prenons par exemple, une lampe avec une télécommande Hertzienne, nous pouvons voir qu'elle communique avec la lampe sur la fréquence 433.920 Mhz  
+Prenons par exemple, une lampe avec une télécommande Hertzienne, nous pouvons voir qu'elle communique avec la lampe sur la fréquence 433.920 Mhz    
 
+![Scan](https://user-images.githubusercontent.com/39098396/80214995-08adf780-863c-11ea-871c-abbaafd03fc4.PNG)  
 ![Scan](https://user-images.githubusercontent.com/39098396/80212189-55430400-8637-11ea-9ea9-405f934ed19b.JPG)
 
 Sur le portapack, dans l'onglet "Capture" nous allons régler la fréquence sur 433.9 Mhz, écouter le signal puis l'enregistrer afin de le rediffuser par la suite. 
@@ -153,3 +154,4 @@ Une fois le signal capturé : se rendre dans la partie "Replay", puis ouvrir le 
 ![Scan](https://user-images.githubusercontent.com/39098396/80214776-b371e600-863b-11ea-8f68-dff7b8b85ac1.PNG)  
  
  __et hop le signal est rediffusé !!__ 
+
