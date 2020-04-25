@@ -173,10 +173,10 @@ L'onglet __Receivers__ permet de recevoir toute sorte de fréquence :
 * __ERT :__ Paquet contenant les données d'un compteur éléctrique/Gaz pour faciliter la collect de données.
 * __POCSAG :__ Protocole de transmission radio utilisé pour les réseaux de radiomessagerie.
 * __Radiosondes :__ 
-* __TPMS :__
-* __APRS :__ 
-* __DMR framing :__
-* __SigFox :__ 
-* __LoRa :__
-* __SSTV :__ 
-* __TETRA framing :__ 
+* __TPMS :__ Tyre Pressure Monitoring System en anglais, Système de surveillance de la pression des pneumatiques.
+* __APRS :__ Automatic Packet Reporting System est un système de radiocommunication numérique utilisé par les radioamateurs, qui permet le partage d'informations d'intérêt local.
+* __DMR framing :__ Digital Mobile Radio, norme de radio numérique mobile ouverte et utilisée dans des produits commerciaux à travers le monde.
+* __SigFox :__ Sigfox est un opérateur de télécommunications français communiquant sur la fréquence 868 MHz.
+* __LoRa :__ LoRaWAN est un protocole de télécommunication permettant la communication à bas débit, par radio, d'objets à faible consommation électrique communiquant selon la technologie LoRa 
+* __SSTV :__ Slow Scan Television, est une activité radioamateur qui vise à la transmission analogique d'images fixes à l'aide d'une bande passante réduite correspondant à celle de la parole.
+* __TETRA framing :__ Terrestrial Trunked Radio, destinés aux équipes de sécurité : elle opere entre 380-400 MHz pour les services d’urgence et dans les bandes 410-430 MHz | 450-470 MHz | 870-880 MHz pour les applications civiles et privées.
