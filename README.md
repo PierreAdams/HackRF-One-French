@@ -163,4 +163,19 @@ Une fois le signal capturé : se rendre dans la partie "Replay", puis ouvrir le 
 L'onglet __"Search/CLose Call"__ permet d'identifier exactement la fréquence d'un signal, on précise un fenêtre, et on déclenche l'émetteur :   
 ![Scan](https://user-images.githubusercontent.com/39098396/80237787-9bab5980-865d-11ea-888f-cdbe48752591.PNG)  
 
-
+L'onglet __Receivers__ permet de recevoir toute sorte de fréquence :  
+*AD-B: Plane : 
+*ACARS : 
+*AIS : 
+*AFSk : 
+*AUDIO : 
+*ERT : est un paquet contenant les données d'un compteur éléctrique/Gaz pour faciliter la collect de données.
+*POCSAG : protocole de transmission radio utilisé pour les réseaux de radiomessagerie
+*Radiosondes : 
+TPMS : 
+APRS : 
+DMR framing :
+SigFox : 
+LoRa : 
+SSTV : 
+TETRA framing : 
