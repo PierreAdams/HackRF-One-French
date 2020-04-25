@@ -165,11 +165,11 @@ L'onglet __"Search/CLose Call"__ permet d'identifier exactement la fréquence d'
 
 L'onglet __Receivers__ permet de recevoir toute sorte de fréquence :  
 
-* __AD-B: Plane : __
-* __ACARS : __
-* __AIS : __
-* __AFSk : __
-* __AUDIO : __
+* __AD-B: Plane :__ système de surveillance pour le contrôle du trafic aérien (connaitre la position des avions)
+* __ACARS :__ système de communication/surveillance entre les aéronef et les sations au sol
+* __AIS :__  système d’échanges automatisés de messages entre navires par radio 
+* __AFSk :__ audio frequency-shift keying,  conçue pour véhiculer la voix ou de la musique, par exemple une liaison téléphone ou radio.
+* __AUDIO :__
 * __ERT :__ Paquet contenant les données d'un compteur éléctrique/Gaz pour faciliter la collect de données.
 * __POCSAG :__ Protocole de transmission radio utilisé pour les réseaux de radiomessagerie.
 * __Radiosondes :__ 
