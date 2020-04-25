@@ -164,18 +164,19 @@ L'onglet __"Search/CLose Call"__ permet d'identifier exactement la fréquence d'
 ![Scan](https://user-images.githubusercontent.com/39098396/80237787-9bab5980-865d-11ea-888f-cdbe48752591.PNG)  
 
 L'onglet __Receivers__ permet de recevoir toute sorte de fréquence :  
-__* AD-B: Plane : __
-__* ACARS : __
-__* AIS : __
-* AFSk : __
-__* AUDIO : __
-__* ERT :__ Paquet contenant les données d'un compteur éléctrique/Gaz pour faciliter la collect de données.
-__* POCSAG :__ Protocole de transmission radio utilisé pour les réseaux de radiomessagerie.
-__* Radiosondes :__ 
-__* TPMS :__
-__* APRS :__ 
-__* DMR framing :__
-__* SigFox :__ 
-__* LoRa :__
-__* SSTV :__ 
-__* TETRA framing :__ 
+
+* __AD-B: Plane : __
+* __ACARS : __
+* __AIS : __
+* __AFSk : __
+* __AUDIO : __
+* __ERT :__ Paquet contenant les données d'un compteur éléctrique/Gaz pour faciliter la collect de données.
+* __POCSAG :__ Protocole de transmission radio utilisé pour les réseaux de radiomessagerie.
+* __Radiosondes :__ 
+* __TPMS :__
+* __APRS :__ 
+* __DMR framing :__
+* __SigFox :__ 
+* __LoRa :__
+* __SSTV :__ 
+* __TETRA framing :__ 
