@@ -132,7 +132,7 @@ je capture une séquence d'apell par exemple  :
 et la difuse    
 ```hackrf_transfer -s 2 -f 446000000 -r HackyWalkie```   
 
-[youtube](youtube.com/watch?v=4-qAzXwfjRY)
+[Regarder la Démo en vidéo](www.https://youtube.com/watch?v=4-qAzXwfjRY)
 
 # Pratique - Portapack :  
 
