@@ -208,9 +208,10 @@ Info sur les Leds :
 Chaque led à une couleur differente :
 
 
-__3V3, 1V8, RF :__  lorsque ces leds sont allumé, cela signifie que le hackrf est allimenté (par une batterie externe par exemple)  
-__USB :__ connexion USB à un ordinateur, la communication est donc possible via les commandes __hackrf..__  
-__TX :__  le hackRF est en train de transmettre   
-__RX :__  le hackRF est en train de recevoir   
+* __3V3, 1V8, RF :__  lorsque ces leds sont allumé, cela signifie que le hackrf est allimenté (par une batterie externe par exemple)  
+* __USB :__ connexion USB à un ordinateur, la communication est donc possible via les commandes __hackrf..__  
+* __TX :__  le hackRF est en train de transmettre   
+* __RX :__  le hackRF est en train de recevoir   
 
-
+* Le bouton __Reset__ : permet une remise à zero du Microcontrôleur
+* Le bouton __ISP / DFU__ : permet de modifier les données en cas de probleme sur le HackRF
