@@ -160,7 +160,7 @@ Une fois le signal capturé : se rendre dans la partie "Replay", puis ouvrir le 
 
 # Possibilités avec le portapack : 
 
-L'onglet __Play Dead__ est une sorte de barriere pour empecher les ignorants d'utiliser le portapack :  
+L'onglet __Play Dead__ est une sorte de barrière pour empecher les ignorants d'utiliser le portapack :  
 l'erreur Firmware suivante apparait lorsqu'on rentre dans l'onglet : 
 
 ![Scan](https://user-images.githubusercontent.com/39098396/80584597-33b89280-8a12-11ea-81ae-130242bf418f.PNG)
