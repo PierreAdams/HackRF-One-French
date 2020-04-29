@@ -120,6 +120,7 @@ hackrf_transfer -s 2 -f 433910000 -t open -a 1 -x 24
 figlet C'est ouvert !  
 ```   
 ![Regarder la video](https://www.youtube.com/watch?v=HM1JgZUscY0)
+<video src="https://www.youtube.com/watch?v=HM1JgZUscY0" width="320" height="200" controls preload></video>
 
 ## Talkie-Walkie : 
 
