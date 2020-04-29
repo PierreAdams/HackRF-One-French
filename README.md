@@ -173,7 +173,7 @@ Par defaut cette combinaison est :  __Haut-Bas-Gauche-Droite__ (Le bouton __Rese
 L'onglet __"Search/CLose Call"__ permet d'identifier exactement la fréquence d'un signal, on précise un fenêtre, et on déclenche l'émetteur :   
 ![Scan](https://user-images.githubusercontent.com/39098396/80237787-9bab5980-865d-11ea-888f-cdbe48752591.PNG)  
 
-L'onglet __Receivers__ permet de recevoir toutes sorte de fréquence :  
+L'onglet __Receivers__ permet de recevoir toutes sortes de fréquences :  
 
 * __AD-B: Plane :__ système de surveillance pour le contrôle du trafic aérien (connaitre la position des avions)
 * __ACARS :__ système de communication/surveillance entre les aéronef et les sations au sol
@@ -192,7 +192,13 @@ L'onglet __Receivers__ permet de recevoir toutes sorte de fréquence :
 * __TETRA framing :__ Terrestrial Trunked Radio, destinés aux équipes de sécurité : elle opere entre 380-400 MHz pour les services d’urgence et dans les bandes 410-430 MHz | 450-470 MHz | 870-880 MHz pour les applications civiles et privées.
 
 
-L'onglet __Transmitters__ permet de transmettre toutes sorte de fréquence :  
+L'onglet __Transmitters__ permet de transmettre toutes ces fréquences. 
+
+Quelque terme que l'on va retrouver lors de l'utilisation du hackRF One couplé du Portapack : 
+
+LNA : 
+AMP : 
+VGA : 
 
 
 
