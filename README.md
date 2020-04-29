@@ -196,13 +196,16 @@ L'onglet __Transmitters__ permet de transmettre toutes ces fréquences.
 
 Quelque terme que l'on va retrouver lors de l'utilisation du hackRF One couplé du Portapack : 
 
-LNA : 
-AMP : 
-VGA : 
+LNA :    
+AMP :   
+VGA :   
 
 
-Info sur les Leds USB :  
-![Scan](https://user-images.githubusercontent.com/39098396/80587157-59e03180-8a16-11ea-8317-6111b7c383ff.jpg)
+Info sur les Leds :  
+![Scan](https://user-images.githubusercontent.com/39098396/80587157-59e03180-8a16-11ea-8317-6111b7c383ff.jpg)  
+Chaque led à une couleur differente :
 
+TX : 
+RX : 
 
 
