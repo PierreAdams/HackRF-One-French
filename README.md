@@ -133,7 +133,7 @@ et la difuse
 ```hackrf_transfer -s 2 -f 446000000 -r HackyWalkie```   
 
 ![Regarder la Vidéo](https://www.youtube.com/watch?v=4-qAzXwfjRY)
-
+@[youtube](https://https://www.youtube.com/watch?v=4-qAzXwfjRY)
 
 # Pratique - Portapack :  
 
