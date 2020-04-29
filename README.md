@@ -160,10 +160,18 @@ Une fois le signal capturé : se rendre dans la partie "Replay", puis ouvrir le 
 
 # Possibilités avec le portapack : 
 
+L'onglet __Play Dead__ est une sorte de barriere pour empecher les ignorants d'utiliser le portapack :  
+l'erreur Firmware suivante apparait lorsqu'on rentre dans l'onglet : 
+
+![Scan](https://user-images.githubusercontent.com/39098396/80584597-33b89280-8a12-11ea-81ae-130242bf418f.PNG)
+
+Pour sortir, il faut entrer la combinaison prédefinit dans l'onglet : __Settings__ > __Play dead__    
+Par defaut cette combinaison est :  __Haut-Bas-Gauche-Droite__ (Le bouton __Reset__ marche aussi ^^)  
+
 L'onglet __"Search/CLose Call"__ permet d'identifier exactement la fréquence d'un signal, on précise un fenêtre, et on déclenche l'émetteur :   
 ![Scan](https://user-images.githubusercontent.com/39098396/80237787-9bab5980-865d-11ea-888f-cdbe48752591.PNG)  
 
-L'onglet __Receivers__ permet de recevoir toute sorte de fréquence :  
+L'onglet __Receivers__ permet de recevoir toutes sorte de fréquence :  
 
 * __AD-B: Plane :__ système de surveillance pour le contrôle du trafic aérien (connaitre la position des avions)
 * __ACARS :__ système de communication/surveillance entre les aéronef et les sations au sol
@@ -180,3 +188,10 @@ L'onglet __Receivers__ permet de recevoir toute sorte de fréquence :
 * __LoRa :__ LoRaWAN est un protocole de télécommunication permettant la communication à bas débit, par radio, d'objets à faible consommation électrique communiquant selon la technologie LoRa 
 * __SSTV :__ Slow Scan Television, est une activité radioamateur qui vise à la transmission analogique d'images fixes à l'aide d'une bande passante réduite correspondant à celle de la parole.
 * __TETRA framing :__ Terrestrial Trunked Radio, destinés aux équipes de sécurité : elle opere entre 380-400 MHz pour les services d’urgence et dans les bandes 410-430 MHz | 450-470 MHz | 870-880 MHz pour les applications civiles et privées.
+
+
+L'onglet __Transmitters__ permet de transmettre toutes sorte de fréquence :  
+
+
+
+
