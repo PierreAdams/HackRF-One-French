@@ -209,7 +209,7 @@ Chaque led à une couleur differente :
 
 
 __3V3, 1V8, RF :__  lorsque ces leds sont allumé, cela signifie que le hackrf est allimenté (par une batterie externe par exemple)  
-__USB :__ connexion USB à un ordinateur, la communication est donc possible via les commandes __hackrf_...__  
+__USB :__ connexion USB à un ordinateur, la communication est donc possible via les commandes __hackrf..__  
 __TX :__  le hackRF est en train de transmettre   
 __RX :__  le hackRF est en train de recevoir   
 
