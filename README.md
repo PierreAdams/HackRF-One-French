@@ -202,10 +202,15 @@ VGA :
 
 
 Info sur les Leds :  
+
 ![Scan](https://user-images.githubusercontent.com/39098396/80587157-59e03180-8a16-11ea-8317-6111b7c383ff.jpg)  
+
 Chaque led à une couleur differente :
 
-TX : 
-RX : 
+
+__3V3, 1V8, RF :__  lorsque ces leds sont allumé, cela signifie que le hackrf est allimenté (par une batterie externe par exemple)  
+__USB :__ connexion USB à un ordinateur, la communication est donc possible via les commandes __hackrf_...__  
+__TX :__  le hackRF est en train de transmettre   
+__RX :__  le hackRF est en train de recevoir   
 
 
