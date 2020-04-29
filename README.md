@@ -194,10 +194,10 @@ L'onglet __Receivers__ permet de recevoir toutes sortes de fréquences :
 
 L'onglet __Transmitters__ permet de transmettre toutes ces fréquences. 
 
-Quelque terme que l'on va retrouver lors de l'utilisation du hackRF One couplé du Portapack : 
+Quelques sigles que l'on va retrouver lors de l'utilisation du hackRF One couplé du Portapack : 
 
-LNA :    
-AMP :   
+LNA : Amplificateur à faible bruit, 
+AMP : Amplificateur   
 VGA :   
 
 
