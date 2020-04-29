@@ -119,8 +119,7 @@ figlet Sesame, Ouvre toi !
 hackrf_transfer -s 2 -f 433910000 -t open -a 1 -x 24
 figlet C'est ouvert !  
 ```   
-![Regarder la video](https://www.youtube.com/watch?v=HM1JgZUscY0)
-<video src="https://www.youtube.com/watch?v=HM1JgZUscY0" width="320" height="200" controls preload></video>
+[Regarder la video](https://www.youtube.com/watch?v=HM1JgZUscY0)
 
 ## Talkie-Walkie : 
 
@@ -132,7 +131,7 @@ je capture une séquence d'apell par exemple  :
 et la difuse    
 ```hackrf_transfer -s 2 -f 446000000 -r HackyWalkie```   
 
-[Regarder la Démo en vidéo](www.https://youtube.com/watch?v=4-qAzXwfjRY)
+[Regarder la Démo en vidéo](https://www.youtube.com/watch?v=4-qAzXwfjRY)
 
 # Pratique - Portapack :  
 
