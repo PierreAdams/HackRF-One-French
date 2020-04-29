@@ -160,7 +160,7 @@ Une fois le signal capturé : se rendre dans la partie "Replay", puis ouvrir le 
 
 # Fonctionnalités Portapack : 
 
-Le Wiki du Github de furrtek explique très bien : https://github.com/furrtek/portapack-havoc/wiki
+Le Wiki du Github de furrtek explique très bien toutes les options que nous offre le Portapack: https://github.com/furrtek/portapack-havoc/wiki
 
 L'onglet __Play Dead__ est une sorte de barrière pour empecher les ignorants d'utiliser le portapack :  
 l'erreur Firmware suivante apparait lorsqu'on rentre dans l'onglet : 
@@ -196,9 +196,9 @@ L'onglet __Transmitters__ permet de transmettre toutes ces fréquences.
 
 Quelques sigles que l'on va retrouver lors de l'utilisation du hackRF One couplé du Portapack : 
 
-* __LNA :__ Amplificateur à faible bruit, 
-* __AMP :__ Amplificateur   
-* __VGA :__   
+* __LNA :__ Amplificateur à faible bruit.
+* __AMP :__ Amplificateur.
+* __VGA :__ Gain.
 
 
 Info sur les Leds :  
