@@ -201,5 +201,8 @@ AMP :
 VGA : 
 
 
+Info sur les Leds USB :  
+![Scan](https://user-images.githubusercontent.com/39098396/80587157-59e03180-8a16-11ea-8317-6111b7c383ff.jpg)
+
 
 
