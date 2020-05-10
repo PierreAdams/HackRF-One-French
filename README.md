@@ -74,7 +74,7 @@ __hackrf_spiflash__ : Mettre à jour le firmware
 __hackrf_cpldjtag__ : Mettre à jour le cpld
 
 
-# Petit rappel utile - convertion MHz - Ghz 
+# Petit rappel utile - Convertion MHz - Ghz 
 ![Scan](https://user-images.githubusercontent.com/39098396/79741752-109b2e00-8302-11ea-80d2-f7132bdcff0b.png)
 
 
