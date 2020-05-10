@@ -9,7 +9,7 @@ __Avantage__ : la puissance du pc permet de traiter les signaux
 le HackRF est un outil de SDR, crée par [Great Scott Gadget](https://greatscottgadgets.com)  
 ![Scan](https://user-images.githubusercontent.com/39098396/79736639-6d92e600-82fa-11ea-8e76-a5e6a3ea749a.jpeg)  
 __Prix__ : environ 300€ (Antenne comprise)  
-__Reception / Emission__ : de 10Mhz à 6Ghz
+__Réception / Emission__ : de 10Mhz à 6Ghz
 
 # PortaPack  
 Le HackRf peut être integré dans un boite nomée un "PortaPack" [lien github](https://github.com/furrtek/portapack-havoc)  
