@@ -248,4 +248,6 @@ Dans un premier temps il est neccessaire de savoir ou se situe la Station Spatia
 - [n2yo](https://www.n2yo.com/?s=25544&df=1) (WebSite)
 - [SpotTheStation](https://spotthestation.nasa.gov/tracking_map.cfm) 
 
-il faut que l'ISS se trouve a proximité de notre antenne, pour commencer à recevoir le signal SSTV
+il faut que l'ISS se trouve a proximité de notre antenne, pour commencer à recevoir le signal SSTV : 
+Vidéo youtube :    
+[ISS_SSTV_Receive](https://www.youtube.com/watch?v=QGnGE2c9io4)
