@@ -225,12 +225,14 @@ exemple :
 
 Comment faire : 
 Logiciels permettant de decoder les images depuis un signal : 
-- Windows :  MMSSTV  (Gratuit)
-- Linux : QSSTV (Gratuit)
-- iOS : “SSTV Slow Scan TV” by Black Cat Systems (https://apps.apple.com/app/sstv/id387910013) (Payant, 3,49€)
-- Mac OS X : Multiscan 3B SSTV (https://www.qsl.net/kd6cji/) (gratuit) 
-- Android : Robot3 (Gratuit) 
+- Windows : [MMSTV](https://hamsoft.ca/pages/mmsstv.php)   (Gratuit)
+- Linux : [QSSTV](http://users.telenet.be/on4qz/qsstv/index.html)   (Gratuit) 
+- iOS : [“SSTV Slow Scan TV” by Black Cat Systems](https://apps.apple.com/app/sstv/id387910013) (Payant, 3,49€)
+- Mac OS X : [Multiscan 3B SSTV](https://www.qsl.net/kd6cji/) (gratuit) 
+- Android : [Robot3](https://play.google.com/store/apps/details?id=xdsopl.robot36&hl=en) (Gratuit) 
 
+challenge interessant pour bien comprendre : 
+[Root-ME Transmission satellite](https://www.root-me.org/fr/Challenges/Reseau/RF-Transmission-satellite)
 
 Faits interessant :
 il y a un programme 
@@ -238,4 +240,4 @@ Le mode utilisé pour transmettre les images SSTV est le mode PD120. L’envoie 
 Comment faire : 
 
 
-source : https://site.amsat-f.org/satellites/station-spatiale-internationale-i-s-s/ariss/recevoir-la-sstv-avec-liss/
+source : [AMSAT](https://site.amsat-f.org/satellites/station-spatiale-internationale-i-s-s/ariss/recevoir-la-sstv-avec-liss/)  
