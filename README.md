@@ -218,7 +218,7 @@ Chaque led à une couleur differente :
 
 # SSTV (Slow Scan Television) : 
 
-SSTV est une activité qui merite d'etre creusé tellement elle est interressante, comme vu récemment c'est un mode qui permet de recevoir / émettre des images, 
+SSTV est une activité qui merite d'être creusé tellement elle est interressante, comme vu récemment c'est un mode qui permet de recevoir / émettre des images, 
 exemple :   
   
 ![Scan](https://user-images.githubusercontent.com/39098396/121325763-2c043680-c912-11eb-87e1-9b087fbd3d8a.jpeg)  
@@ -233,14 +233,19 @@ Logiciels permettant de decoder les images depuis un signal :
   
 source : [AMSAT](https://site.amsat-f.org/satellites/station-spatiale-internationale-i-s-s/ariss/recevoir-la-sstv-avec-liss/)  
 
-### challenge interessant pour bien comprendre la SSTV : [Root-ME Transmission satellite](https://www.root-me.org/fr/Challenges/Reseau/RF-Transmission-satellite)
+Il y a des examples de signaux SSTV a cette adresse si vous voulez vous entrainez : [WIKI_SSTV](https://www.sigidwiki.com/wiki/Slow-Scan_Television_(SSTV))
+
+### challenge interessant pour bien comprendre le SSTV : [Root-ME Transmission satellite](https://www.root-me.org/fr/Challenges/Reseau/RF-Transmission-satellite)
 
 *Faits interessant :*      
 il existe un programme nommé **ARISS SSTV** (Amateur Radio on the International Space Station) precedemment SAREX crée en 2011, qui transmet des images depuis l'ISS (station Spacial International) : 
 Le mode utilisé pour recevoir les images SSTV de la station est le mode **PD120**. La reception d’une image prends environ 2 minutes sur la fréquence **145.800 Mhz**   
-Nous pouvons meme uplaoder les images que nous avons recus : [spaceflightsoftwaret](https://www.spaceflightsoftware.com/ARISS_SSTV/index.php)
+Nous pouvons aussi uplaoder les images que nous avons recus : [spaceflightsoftwaret](https://www.spaceflightsoftware.com/ARISS_SSTV/index.php)
 
 *Comment faire : *   
 Dans un premier temps il est neccessaire de savoir ou se situe la Station Spatial International : 
+- [Orbitron](http://blog.f1src.org/page/orbitron.htm) (Software)
+- [n2yo](https://www.n2yo.com/?s=25544&df=1) (WebSite)
+- [SpotTheStation](https://spotthestation.nasa.gov/tracking_map.cfm) 
 
-
+il faut que l'ISS se trouve a proximité de notre antenne, pour commencer à recevoir le signal SSTV
