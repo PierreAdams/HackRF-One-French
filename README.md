@@ -222,8 +222,7 @@ SSTV est une activité qui merite d'etre creusé tellement elle est interressant
 exemple :   
   
 ![Scan](https://user-images.githubusercontent.com/39098396/121325763-2c043680-c912-11eb-87e1-9b087fbd3d8a.jpeg)  
-
-Comment faire : 
+ 
 Logiciels permettant de decoder les images depuis un signal : 
 - Windows : [MMSTV](https://hamsoft.ca/pages/mmsstv.php)   (Gratuit)
 - Linux : [QSSTV](http://users.telenet.be/on4qz/qsstv/index.html)   (Gratuit) 
@@ -231,13 +230,15 @@ Logiciels permettant de decoder les images depuis un signal :
 - Mac OS X : [Multiscan 3B SSTV](https://www.qsl.net/kd6cji/) (gratuit) 
 - Android : [Robot3](https://play.google.com/store/apps/details?id=xdsopl.robot36&hl=en) (Gratuit) 
 
-challenge interessant pour bien comprendre : 
-[Root-ME Transmission satellite](https://www.root-me.org/fr/Challenges/Reseau/RF-Transmission-satellite)
+### challenge interessant pour bien comprendre la SSTV : [Root-ME Transmission satellite](https://www.root-me.org/fr/Challenges/Reseau/RF-Transmission-satellite)
 
-Faits interessant :
-il y a un programme 
-Le mode utilisé pour transmettre les images SSTV est le mode PD120. L’envoie d’une image prends 2 minutes sur la fréquence 145.800 Mhz
-Comment faire : 
+Faits interessant : 
+il existe un programme nommé **ARISS SSTV** (Amateur Radio on the International Space Station) precedemment SAREX crée en 2011, qui transmet des images depuis l'ISS (station Spacial International) : 
+Le mode utilisé pour recevoir les images SSTV de la station est le mode **PD120**. La reception d’une image prends environ 2 minutes sur la fréquence **145.800 Mhz**
+## Comment faire : 
+Dans un premier temps il est neccessaire de savoir ou se situe la Station Spatial International : 
 
+
+Nous pouvons meme uplaoder les images que nous avons recus : [spaceflightsoftwaret](https://www.spaceflightsoftware.com/ARISS_SSTV/index.php)
 
 source : [AMSAT](https://site.amsat-f.org/satellites/station-spatiale-internationale-i-s-s/ariss/recevoir-la-sstv-avec-liss/)  
