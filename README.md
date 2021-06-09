@@ -228,17 +228,17 @@ Logiciels permettant de decoder les images depuis un signal :
 - Linux : [QSSTV](http://users.telenet.be/on4qz/qsstv/index.html)   (Gratuit) 
 - iOS : [“SSTV Slow Scan TV” by Black Cat Systems](https://apps.apple.com/app/sstv/id387910013) (Payant, 3,49€)
 - Mac OS X : [Multiscan 3B SSTV](https://www.qsl.net/kd6cji/) (gratuit) 
-- Android : [Robot3](https://play.google.com/store/apps/details?id=xdsopl.robot36&hl=en) (Gratuit) 
+- Android : [Robot3](https://play.google.com/store/apps/details?id=xdsopl.robot36&hl=en) (Gratuit)      
+source : [AMSAT](https://site.amsat-f.org/satellites/station-spatiale-internationale-i-s-s/ariss/recevoir-la-sstv-avec-liss/)  
 
 ### challenge interessant pour bien comprendre la SSTV : [Root-ME Transmission satellite](https://www.root-me.org/fr/Challenges/Reseau/RF-Transmission-satellite)
 
-Faits interessant : 
+*Faits interessant :*      
 il existe un programme nommé **ARISS SSTV** (Amateur Radio on the International Space Station) precedemment SAREX crée en 2011, qui transmet des images depuis l'ISS (station Spacial International) : 
-Le mode utilisé pour recevoir les images SSTV de la station est le mode **PD120**. La reception d’une image prends environ 2 minutes sur la fréquence **145.800 Mhz**
-## Comment faire : 
+Le mode utilisé pour recevoir les images SSTV de la station est le mode **PD120**. La reception d’une image prends environ 2 minutes sur la fréquence **145.800 Mhz**   
+Nous pouvons meme uplaoder les images que nous avons recus : [spaceflightsoftwaret](https://www.spaceflightsoftware.com/ARISS_SSTV/index.php)
+
+*Comment faire : *   
 Dans un premier temps il est neccessaire de savoir ou se situe la Station Spatial International : 
 
 
-Nous pouvons meme uplaoder les images que nous avons recus : [spaceflightsoftwaret](https://www.spaceflightsoftware.com/ARISS_SSTV/index.php)
-
-source : [AMSAT](https://site.amsat-f.org/satellites/station-spatiale-internationale-i-s-s/ariss/recevoir-la-sstv-avec-liss/)  
