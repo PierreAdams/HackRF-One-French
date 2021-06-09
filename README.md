@@ -191,6 +191,12 @@ L'onglet __Receivers__ permet de recevoir toutes sortes de fréquences :
 * __TETRA framing :__ Terrestrial Trunked Radio, destinés aux équipes de sécurité : elle opere entre 380-400 MHz pour les services d’urgence et dans les bandes 410-430 MHz | 450-470 MHz | 870-880 MHz pour les applications civiles et privées.
 
 
+# SSTV (Slow Scan Television) : 
+
+SSTV est une activité qui merite d'etre creusé tellement elle est interressante, comme vu recemment c'est un mode qui permet de recevoir / emettre des images, 
+exemple : 
+
+
 L'onglet __Transmitters__ permet de transmettre toutes ces fréquences. 
 
 Quelques sigles que l'on va retrouver lors de l'utilisation du hackRF One couplé du Portapack : 
