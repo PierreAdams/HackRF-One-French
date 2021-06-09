@@ -223,4 +223,19 @@ exemple :
   
 ![Scan](https://user-images.githubusercontent.com/39098396/121325763-2c043680-c912-11eb-87e1-9b087fbd3d8a.jpeg)  
 
+Comment faire : 
+Logiciels permettant de decoder les images depuis un signal : 
+- Windows :  MMSSTV  (Gratuit)
+- Linux : QSSTV (Gratuit)
+- iOS : “SSTV Slow Scan TV” by Black Cat Systems (https://apps.apple.com/app/sstv/id387910013) (Payant, 3,49€)
+- Mac OS X : Multiscan 3B SSTV (https://www.qsl.net/kd6cji/) (gratuit) 
+- Android : Robot3 (Gratuit) 
 
+
+Faits interessant :
+il y a un programme 
+Le mode utilisé pour transmettre les images SSTV est le mode PD120. L’envoie d’une image prends 2 minutes sur la fréquence 145.800 Mhz
+Comment faire : 
+
+
+source : https://site.amsat-f.org/satellites/station-spatiale-internationale-i-s-s/ariss/recevoir-la-sstv-avec-liss/
