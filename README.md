@@ -187,7 +187,7 @@ L'onglet __Receivers__ permet de recevoir toutes sortes de fréquences :
 * __DMR framing :__ Digital Mobile Radio, norme de radio numérique mobile ouverte et utilisée dans des produits commerciaux à travers le monde.
 * __SigFox :__ Sigfox est un opérateur de télécommunications français communiquant sur la fréquence 868 MHz.
 * __LoRa :__ LoRaWAN est un protocole de télécommunication permettant la communication à bas débit, par radio, d'objets à faible consommation électrique communiquant selon la technologie LoRa 
-* __SSTV :__ Slow Scan Television, est une activité radioamateur qui vise à la transmission analogique d'images (J'y ai consacré quelques lignes)
+* __SSTV :__ Slow Scan Television, est une activité radioamateur qui vise à la transmission analogique d'images ([J'y ai consacré quelques lignes](https://github.com/PierreAdams/HackRF-One-en-Francais/blob/master/README.md#sstv-slow-scan-television-)) 
 * __TETRA framing :__ Terrestrial Trunked Radio, destinés aux équipes de sécurité : elle opere entre 380-400 MHz pour les services d’urgence et dans les bandes 410-430 MHz | 450-470 MHz | 870-880 MHz pour les applications civiles et privées.
 
 
