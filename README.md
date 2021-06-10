@@ -1,17 +1,17 @@
 # HackRF-One
 Présentation et démonstration des fonctionnalitées du HackRF One
-# SDR 
+## SDR 
 Tout d'abord il est intéressant de savoir ce qu'est le SDR : 
 Software Defined Radio c'est pour faire simple, une radio (recepteur/emeteur) remplacée logicielement  
 __Avantage__ : la puissance du pc permet de traiter les signaux  
  
-# HackRF One  
+## HackRF One  
 le HackRF est un outil de SDR, crée par [Great Scott Gadget](https://greatscottgadgets.com)  
 ![Scan](https://user-images.githubusercontent.com/39098396/79736639-6d92e600-82fa-11ea-8e76-a5e6a3ea749a.jpeg)  
 __Prix__ : environ 300€ (Antenne comprise)  
 __Réception / Emission__ : de 10Mhz à 6Ghz
 
-# PortaPack  
+## PortaPack  
 Le HackRf peut être integré dans un boite nomée un "PortaPack" [lien github](https://github.com/furrtek/portapack-havoc)  
 ![Scan](https://user-images.githubusercontent.com/39098396/79736658-72579a00-82fa-11ea-8692-116d2b8a5461.jpeg)  
 __Prix__ : 200 €  
@@ -31,7 +31,7 @@ Lorsque le firmware de votre portapack sera installé il sera toujours possible 
 --------------------------------------------------------------------
 
 
-# Premier Branchement + Mise à jour du Firmware :  
+## Premier Branchement + Mise à jour du Firmware :  
 
 La première chose à faire une fois le HackRF reçu, il faut mettre à jour le firmware et installer le paquet HackRF:   
 installer le paquet hackrf :   
@@ -59,7 +59,7 @@ Firmware Version: 2018.01.1 (API:1.02)
 Part ID Number: 0xa000cb3c 0x00724357
 ```
 
-# Commandes HackRF One : 
+## Commandes HackRF One : 
 
 __Hackrf_info__ : lors du branchement du hackRF One, cette commande permet d'avoir des informations sur sa version   
 
@@ -74,11 +74,11 @@ __hackrf_spiflash__ : Mettre à jour le firmware
 __hackrf_cpldjtag__ : Mettre à jour le cpld
 
 
-# Petit rappel utile - Convertion MHz - Ghz 
+## Petit rappel utile - Convertion MHz - Ghz 
 ![Scan](https://user-images.githubusercontent.com/39098396/79741752-109b2e00-8302-11ea-80d2-f7132bdcff0b.png)
 
 
-# Pratique :  
+# Passons à la Pratique :  
 
 ## Portail :  
 
@@ -133,7 +133,7 @@ et la difuse
 
 [Regarder la vidéo](https://www.youtube.com/watch?v=4-qAzXwfjRY)
 
-# Pratique - Portapack :  
+## Manipulation - Portapack :  
 
 Avec le portapack, toutes les manipulations effectuées juste avant pourront desormais être réalisés directement sur le portapack. 
 
@@ -157,7 +157,7 @@ Une fois le signal capturé : se rendre dans la partie "Replay", puis ouvrir le 
  
  __et hop le signal est rediffusé !!__ 
 
-# Fonctionnalités Portapack : 
+## Fonctionnalités Portapack : 
 
 Le Wiki du Github de furrtek explique très bien toutes les options que nous offre le Portapack: https://github.com/furrtek/portapack-havoc/wiki
 
@@ -216,7 +216,7 @@ Chaque led à une couleur differente :
 * Le bouton __ISP / DFU__ : permet de modifier les données en cas de probleme sur le HackRF
 
 
-# SSTV (Slow Scan Television) : 
+## SSTV (Slow Scan Television) : 
 
 SSTV est une activité qui merite d'être creusé tellement elle est interressante, comme vu récemment c'est un mode qui permet de recevoir / émettre des images, 
 exemple :   
@@ -233,7 +233,12 @@ Logiciels permettant de decoder les images depuis un signal :
   
 source : [AMSAT](https://site.amsat-f.org/satellites/station-spatiale-internationale-i-s-s/ariss/recevoir-la-sstv-avec-liss/)  
 
-Il y a des examples de signaux SSTV a cette adresse si vous voulez vous entrainez : [WIKI_SSTV](https://www.sigidwiki.com/wiki/Slow-Scan_Television_(SSTV))
+Il y à des examples de signaux SSTV à cette adresse afin de s'entrainer : [WIKI_SSTV](https://www.sigidwiki.com/wiki/Slow-Scan_Television_(SSTV))
+
+### SSTV with HackRF ONE   
+Grace au HackRf One, nous pouvons également émettre des images via le mode SSTV :   
+
+[HackRF_SSTV](https://twitter.com/i/status/846778098670616576)
 
 ### challenge interessant pour bien comprendre le SSTV : [Root-ME Transmission satellite](https://www.root-me.org/fr/Challenges/Reseau/RF-Transmission-satellite)
 
@@ -251,3 +256,7 @@ Dans un premier temps il est neccessaire de savoir ou se situe la Station Spatia
 il faut que l'ISS se trouve a proximité de notre antenne, pour commencer à recevoir le signal SSTV :     
 
 Vidéo youtube :[ISS_SSTV_Receive](https://www.youtube.com/watch?v=QGnGE2c9io4)
+
+
+
+
