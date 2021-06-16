@@ -240,7 +240,6 @@ Grace au HackRf One, nous pouvons également émettre des images via le mode SST
 
 [HackRF_SSTV](https://twitter.com/i/status/846778098670616576)
 
-### challenge interessant pour bien comprendre le SSTV : [Root-ME Transmission satellite](https://www.root-me.org/fr/Challenges/Reseau/RF-Transmission-satellite)
 
 *Faits interessant :*      
 il existe un programme nommé **ARISS SSTV** (Amateur Radio on the International Space Station) precedemment SAREX crée en 2011, qui transmet des images depuis l'ISS (station Spacial International) : 
