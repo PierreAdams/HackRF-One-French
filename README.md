@@ -241,6 +241,9 @@ Grace au HackRf One, nous pouvons également émettre des images via le mode SST
 [HackRF_SSTV](https://twitter.com/i/status/846778098670616576)
 
 
+Challenge très intéressant de la plateforme [Root-me](https://www.root-me.org/) :     
+[Root-me challenge RF - Transmission Satellite](https://www.root-me.org/fr/Challenges/Reseau/RF-Transmission-satellite)
+
 *Faits interessant :*      
 il existe un programme nommé **ARISS SSTV** (Amateur Radio on the International Space Station) precedemment SAREX crée en 2011, qui transmet des images depuis l'ISS (station Spacial International) : 
 Le mode utilisé pour recevoir les images SSTV de la station est le mode **PD120**. La reception d’une image prends environ 2 minutes sur la fréquence **145.800 Mhz**   
