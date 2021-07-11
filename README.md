@@ -273,3 +273,7 @@ nous pouvons le déterminer sur GQRX en faisant des tests de branchement / debra
 je determine donc que le fréquence de mon cable est : 198 000 000 khz 
 
 ![GQRX](https://user-images.githubusercontent.com/39098396/125199684-a1dc2480-e267-11eb-9803-69e3d6367335.png)
+
+
+petite ![Vidéo](https://user-images.githubusercontent.com/39098396/125199892-9c330e80-e268-11eb-9fa8-df8dac52068b.mp4) demonstrative de l'outil et de ce qu'on eput faire avec 
+
