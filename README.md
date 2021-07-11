@@ -264,16 +264,14 @@ Vidéo youtube : [ISS_SSTV_Receive](https://www.youtube.com/watch?v=QGnGE2c9io4)
 
 Tempest SDR est un [outil open source de Martin Marinov](https://github.com/martinmarinov/TempestSDR) qui permet, grace au ondes émise de façon non intentionel,  d'afficher un écran. Concretement : un cable HDMI émet des ondes 'garbage', celles ci peuvent être récuperées et grace à l'outil Tempest SDR, nous pouvons transformer ces ondes en affichage en temps réel.   
 
-  
-![TempestSDR](https://user-images.githubusercontent.com/39098396/125199259-a9023300-e265-11eb-867c-96a8a2418b7f.PNG) 
-
-
 il faut dans un premier conaitre sur quelle fréquence radio notre port HDMI envoie son 'garbage' : 
 nous pouvons le déterminer sur GQRX en faisant des tests de branchement / debranchement du cable HDMI, 
 je determine donc que le fréquence de mon cable est : 198 000 000 khz 
 
 ![GQRX](https://user-images.githubusercontent.com/39098396/125199684-a1dc2480-e267-11eb-9803-69e3d6367335.png)
 
-je branche mon hackRF, je pointe l'antenne vers le port HDMI de mon écran, puis je lance l'outil en écoutant sur la bonne fréquence, je dois aussi connaitre la résolution et le taux de rafraichissement de l'écran, et voilaaa :  
+je branche mon hackRF, je pointe l'antenne vers le port HDMI de mon écran, puis je lance l'outil en écoutant sur la bonne fréquence, je dois aussi connaitre la résolution et le taux de rafraichissement de l'écran, et voilaaa :    
+
+![TempestSDR](https://user-images.githubusercontent.com/39098396/125199259-a9023300-e265-11eb-867c-96a8a2418b7f.PNG)   
 petite ![Vidéo](https://user-images.githubusercontent.com/39098396/125199892-9c330e80-e268-11eb-9fa8-df8dac52068b.mp4) demonstrative de l'outil et de ce qu'on eput faire avec 
 
