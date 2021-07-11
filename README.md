@@ -272,4 +272,4 @@ il faut dans un premier conaitre sur quelle fréquence radio notre port HDMI env
 nous pouvons le déterminer sur GQRX en faisant des tests de branchement / debranchement du cable HDMI, 
 je determine donc que le fréquence de mon cable est : 198 000 000 khz 
 
-
+![GQRX](https://user-images.githubusercontent.com/39098396/125199684-a1dc2480-e267-11eb-9803-69e3d6367335.png)
