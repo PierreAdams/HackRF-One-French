@@ -274,6 +274,6 @@ je determine donc que le fréquence de mon cable est : 198 000 000 khz
 
 ![GQRX](https://user-images.githubusercontent.com/39098396/125199684-a1dc2480-e267-11eb-9803-69e3d6367335.png)
 
-je branche mon hackRF, je pointe l'antenne vers le port HDMI de mon écran, puis je lance l'outil en écoutant sur la bonne fréquence, et tadaaa : 
+je branche mon hackRF, je pointe l'antenne vers le port HDMI de mon écran, puis je lance l'outil en écoutant sur la bonne fréquence, je dois aussi connaitre la résolution et le taux de rafraichissement de l'écran, et voilaaa :  
 petite ![Vidéo](https://user-images.githubusercontent.com/39098396/125199892-9c330e80-e268-11eb-9fa8-df8dac52068b.mp4) demonstrative de l'outil et de ce qu'on eput faire avec 
 
