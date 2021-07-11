@@ -267,3 +267,9 @@ Tempest SDR est un [outil open source de Martin Marinov](https://github.com/mart
   
 ![TempestSDR](https://user-images.githubusercontent.com/39098396/125199259-a9023300-e265-11eb-867c-96a8a2418b7f.PNG) 
 
+
+il faut dans un premier conaitre sur quelle fréquence radio notre port HDMI envoie son 'garbage' : 
+nous pouvons le déterminer sur GQRX en faisant des tests de branchement / debranchement du cable HDMI, 
+je determine donc que le fréquence de mon cable est : 198 000 000 khz 
+
+
