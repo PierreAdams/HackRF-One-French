@@ -218,8 +218,10 @@ Chaque led à une couleur differente :
 
 ## SSTV (Slow Scan Television) : 
 
-SSTV est une activité qui merite d'être creusé tellement elle est interressante, comme vu récemment c'est un mode qui permet de recevoir / émettre des images, 
-exemple :   
+SSTV est une activité qui merite d'être creusé tellement elle est interressante, comme vu récemment c'est un mode qui permet de recevoir / émettre des images 
+
+### SSTV with HackRF ONE   
+Grace au HackRf One, nous pouvons également émettre des images via le mode SSTV :   
 
 Démonstration en vidéo :   
 
@@ -230,6 +232,9 @@ Voici l'image de base : (l'image doit etre en format Bitmap (320x256)
  
 Voici la photo une fois recue :   
 ![Scan](https://user-images.githubusercontent.com/39098396/127194769-ca636417-7380-4816-aceb-ef0caa8e4974.PNG) 
+
+autre exemple : 
+[HackRF_SSTV](https://twitter.com/i/status/846778098670616576)
 
 
 Logiciels permettant de decoder les images depuis un signal : 
@@ -244,19 +249,14 @@ source : [AMSAT](https://site.amsat-f.org/satellites/station-spatiale-internatio
 
 Il y à des examples de signaux SSTV à cette adresse afin de s'entrainer : [WIKI_SSTV](https://www.sigidwiki.com/wiki/Slow-Scan_Television_(SSTV))
 
-### SSTV with HackRF ONE   
-Grace au HackRf One, nous pouvons également émettre des images via le mode SSTV :   
-
-[HackRF_SSTV](https://twitter.com/i/status/846778098670616576)
-
-
-Challenge très intéressant de la plateforme [Root-me](https://www.root-me.org/) :     
-[Root-me challenge RF - Transmission Satellite](https://www.root-me.org/fr/Challenges/Reseau/RF-Transmission-satellite)
-
 *Faits interessant :*      
 il existe un programme nommé **ARISS SSTV** (Amateur Radio on the International Space Station) precedemment SAREX crée en 2011, qui transmet des images depuis l'ISS (station Spacial International) : 
 Le mode utilisé pour recevoir les images SSTV de la station est le mode **PD120**. La reception d’une image prends environ 2 minutes sur la fréquence **145.800 Mhz**   
 Nous pouvons aussi uplaoder les images que nous avons recus : [spaceflightsoftwaret](https://www.spaceflightsoftware.com/ARISS_SSTV/index.php)
+
+
+Challenge très intéressant de la plateforme [Root-me](https://www.root-me.org/) :     
+[Root-me challenge RF - Transmission Satellite](https://www.root-me.org/fr/Challenges/Reseau/RF-Transmission-satellite)
 
 *Comment faire : *   
 Dans un premier temps il est neccessaire de savoir ou se situe la Station Spatial International : 
