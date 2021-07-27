@@ -224,11 +224,13 @@ exemple :
 Démonstration en vidéo : 
 
 
-Voici la Photos de base :
- 
+Voici la Photos de base :  
+![Scan](https://user-images.githubusercontent.com/39098396/127194828-9e39c4d0-284b-42cf-a762-f22c090206b7.jpg)
 
-Voici la photos une fois recue : 
- 
+  
+Voici la photos une fois recue :   
+![Scan](https://user-images.githubusercontent.com/39098396/127194769-ca636417-7380-4816-aceb-ef0caa8e4974.PNG) 
+
 
 Logiciels permettant de decoder les images depuis un signal : 
 - Windows : [MMSTV](https://hamsoft.ca/pages/mmsstv.php)   (Gratuit)
