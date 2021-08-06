@@ -334,7 +334,7 @@ Options:
 hackrf_transfer -C 4 -t gpssim.bin -f 1575420000 -s 2600000 -a 1 -x 42
 ```
 ```
-r <filename> # Receive data into file.
+-r <filename> # Receive data into file.
 -t <filename> # Transmit data from file.
 -w # Receive data into file with WAV header and automatic name.
 # This is for SDR# compatibility and may not work with other software.
