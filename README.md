@@ -334,17 +334,19 @@ Options:
 hackrf_transfer -C 4 -t gpssim.bin -f 1575420000 -s 2600000 -a 1 -x 42
 ```
 ```
--r <filename> # Receive data into file.
--t <filename> # Transmit data from file.
--w # Receive data into file with WAV header and automatic name.
-# This is for SDR# compatibility and may not work with other software.
-[-f set_freq_hz] # Set Freq in Hz
-[-a set_amp] # Set Amp 1=Enable, 0=Disable.
-[-l gain_db] # Set lna gain, 0-40dB, 8dB steps
-[-i gain_db] # Set vga(if) gain, 0-62dB, 2dB steps
-[-x gain_db] # Set TX vga gain, 0-47dB, 1dB steps
-[-s sample_rate_hz] # Set sample rate in Hz (8/10/12.5/16/20MHz)
-[-n num_samples] # Number of samples to transfer (default is unlimited).
-[-b baseband_filter_bw_hz] # Set baseband filter bandwidth in MHz.
-    Possible values: 1.75/2.5/3.5/5/5.5/6/7/8/9/10/12/14/15/20/24/28MHz, default < sample_rate_hz.
+Usage: hackrf_transfer [OPTIONS] 
+Options :
+   -r <filename> # Receive data into file.
+   -t <filename> # Transmit data from file.
+   -w # Receive data into file with WAV header and automatic name.
+   # This is for SDR# compatibility and may not work with other software.
+   [-f set_freq_hz] # Set Freq in Hz
+   [-a set_amp] # Set Amp 1=Enable, 0=Disable.
+   [-l gain_db] # Set lna gain, 0-40dB, 8dB steps
+   [-i gain_db] # Set vga(if) gain, 0-62dB, 2dB steps
+   [-x gain_db] # Set TX vga gain, 0-47dB, 1dB steps
+   [-s sample_rate_hz] # Set sample rate in Hz (8/10/12.5/16/20MHz)
+   [-n num_samples] # Number of samples to transfer (default is unlimited).
+   [-b baseband_filter_bw_hz] # Set baseband filter bandwidth in MHz.
+       Possible values: 1.75/2.5/3.5/5/5.5/6/7/8/9/10/12/14/15/20/24/28MHz, default < sample_rate_hz.
 ```
