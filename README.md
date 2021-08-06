@@ -282,8 +282,67 @@ Je determine donc que la 'fréquence d'émission' de mon cable est : 198 000 000
 
 ![GQRX](https://user-images.githubusercontent.com/39098396/125199684-a1dc2480-e267-11eb-9803-69e3d6367335.png)
 
-je branche mon hackRF, je pointe l'antenne vers le port HDMI de mon écran, puis je lance l'outil en écoutant sur la bonne fréquence, je dois aussi connaitre la résolution et le taux de rafraichissement de l'écran cible, et voilaaa :    
+Je branche mon hackRF, je pointe l'antenne vers le port HDMI de mon écran, puis je lance l'outil en écoutant sur la bonne fréquence, je dois aussi connaitre la résolution et le taux de rafraichissement de l'écran cible, et voilaaa :    
 
 ![TempestSDR](https://user-images.githubusercontent.com/39098396/125199259-a9023300-e265-11eb-867c-96a8a2418b7f.PNG)   
-petite [Vidéo](https://user-images.githubusercontent.com/39098396/125199892-9c330e80-e268-11eb-9fa8-df8dac52068b.mp4) demonstrative de l'outil et de ce qu'on eput faire avec 
+petite [Vidéo](https://user-images.githubusercontent.com/39098396/125199892-9c330e80-e268-11eb-9fa8-df8dac52068b.mp4) demonstrative de l'outil et de ce qu'on peut faire avec 
 
+
+## GPS Spoofing via HackRF One 
+
+Le GPS Spoofing est une technique qui consiste à envoyer de fausse informations à un systeme GPS afin d'afficher la mauvaise position. 
+
+__Fonctionnement d'un GPS :__ Un recepteur GPS fonctionne grace au calcul de la distance entre lui et plusieurs satellites emeteur (4) via des ondes, il determine donc et affiche sa position tel que nous la voyons comme ceci. 
+
+la fréquence de signal d'un GPS basique est de 1575,42MHZ
+
+GPS-SDR-SIM (Compatible Linux et Windows) est un outil (disponible sur ce ![repo](https://github.com/osqzss/gps-sdr-sim)) permettant de mener ce genre d'action : 
+
+ - Dans un premier temps nous devons télécharger le fichier [BRDC du jour](https://cddis.nasa.gov/archive/gnss/data/daily/) (Broadcast Ephemeris Data) qui contient les posittions de chaque satelitte GPS.
+
+- Trouver une position gps et avoir les infos suivantes : (Latitude,Longitude,hauteur)
+
+- Puis generer le fichier gpssim.bin executant cette commande en passant en argument ls position GPS voulu :
+
+```
+$ ./gps-sdr-sim -e brdc2180.21n -b 8 -l 48.859057,2.293276,30
+```
+
+```
+Usage: gps-sdr-sim [options]
+Options:
+  -e <gps_nav>     RINEX navigation file for GPS ephemerides (required)
+  -u <user_motion> User motion file (dynamic mode)
+  -g <nmea_gga>    NMEA GGA stream (dynamic mode)
+  -c <location>    ECEF X,Y,Z in meters (static mode) e.g. 3967283.15,1022538.18,4872414.48
+  -l <location>    Lat,Lon,Hgt (static mode) e.g. 30.286502,120.032669,100
+  -t <date,time>   Scenario start time YYYY/MM/DD,hh:mm:ss
+  -T <date,time>   Overwrite TOC and TOE to scenario start time
+  -d <duration>    Duration [sec] (dynamic mode max: 300 static mode max: 86400)
+  -o <output>      I/Q sampling data file (default: gpssim.bin ; use - for stdout)
+  -s <frequency>   Sampling frequency [Hz] (default: 2600000)
+  -b <iq_bits>     I/Q data format [1/8/16] (default: 16)
+  -i               Disable ionospheric delay for spacecraft scenario
+  -v               Show details about simulated channels
+```
+
+- Executer la commande suivante en branchant le HackRF
+
+```
+hackrf_transfer -C 4 -t gpssim.bin -f 1575420000 -s 2600000 -a 1 -x 42
+```
+```
+r <filename> # Receive data into file.
+-t <filename> # Transmit data from file.
+-w # Receive data into file with WAV header and automatic name.
+# This is for SDR# compatibility and may not work with other software.
+[-f set_freq_hz] # Set Freq in Hz
+[-a set_amp] # Set Amp 1=Enable, 0=Disable.
+[-l gain_db] # Set lna gain, 0-40dB, 8dB steps
+[-i gain_db] # Set vga(if) gain, 0-62dB, 2dB steps
+[-x gain_db] # Set TX vga gain, 0-47dB, 1dB steps
+[-s sample_rate_hz] # Set sample rate in Hz (8/10/12.5/16/20MHz)
+[-n num_samples] # Number of samples to transfer (default is unlimited).
+[-b baseband_filter_bw_hz] # Set baseband filter bandwidth in MHz.
+    Possible values: 1.75/2.5/3.5/5/5.5/6/7/8/9/10/12/14/15/20/24/28MHz, default < sample_rate_hz.
+```
