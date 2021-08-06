@@ -292,11 +292,13 @@ petite [Vidéo](https://user-images.githubusercontent.com/39098396/125199892-9c3
 
 Le GPS Spoofing est une technique qui consiste à envoyer de fausse informations à un systeme GPS afin d'afficher la mauvaise position. 
 
-__Fonctionnement d'un GPS :__ Un recepteur GPS fonctionne grace au calcul de la distance entre lui et plusieurs satellites emeteur (4) via des ondes, il determine donc et affiche sa position tel que nous la voyons comme ceci. 
+__Fonctionnement d'un GPS :__ Un recepteur GPS fonctionne grace au calcul de la distance entre lui et plusieurs satellites emeteur (4) via des ondes, il determine  et affiche sa position tel que nous la voyons sur un GPS classique. 
 
 la fréquence de signal d'un GPS basique est de 1575,42MHZ
 
-GPS-SDR-SIM (Compatible Linux et Windows) est un outil (disponible sur ce ![repo](https://github.com/osqzss/gps-sdr-sim)) permettant de mener ce genre d'action : 
+GPS-SDR-SIM (Compatible Linux et Windows) est un outil (disponible sur ce ![repo](https://github.com/osqzss/gps-sdr-sim)) permettant de mener ce genre d'action. 
+
+# Demonstration : 
 
  - Dans un premier temps nous devons télécharger le fichier [BRDC du jour](https://cddis.nasa.gov/archive/gnss/data/daily/) (Broadcast Ephemeris Data) qui contient les posittions de chaque satelitte GPS.
 
