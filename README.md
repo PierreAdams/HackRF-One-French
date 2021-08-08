@@ -365,3 +365,6 @@ Options :
    [-b baseband_filter_bw_hz] # Set baseband filter bandwidth in MHz.
        Possible values: 1.75/2.5/3.5/5/5.5/6/7/8/9/10/12/14/15/20/24/28MHz, default < sample_rate_hz.
 ```
+Si nous executons un GQRX sur les fréquences GPS nous voyons bien les ondes que le HackRF envoie : 
+[Image](lol.png)   
+
