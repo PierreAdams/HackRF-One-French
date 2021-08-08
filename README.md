@@ -298,7 +298,7 @@ la fréquence de signal d'un GPS basique est de 1575,42MHZ
 
 GPS-SDR-SIM (Compatible Linux et Windows) est un outil (disponible sur ce ![repo](https://github.com/osqzss/gps-sdr-sim)) permettant de mener ce genre d'action. 
 
-### Demonstration : 
+### Démonstration : 
 
  - Dans un premier temps nous devons télécharger le fichier [BRDC du jour](https://cddis.nasa.gov/archive/gnss/data/daily/) (Broadcast Ephemeris Data) qui contient les posittions de chaque satelitte GPS.
  
