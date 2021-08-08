@@ -301,6 +301,21 @@ GPS-SDR-SIM (Compatible Linux et Windows) est un outil (disponible sur ce ![repo
 ### Demonstration : 
 
  - Dans un premier temps nous devons télécharger le fichier [BRDC du jour](https://cddis.nasa.gov/archive/gnss/data/daily/) (Broadcast Ephemeris Data) qui contient les posittions de chaque satelitte GPS.
+ - 
+__Petit Script qui automatise le process :__
+```
+#!/bin/bash
+
+# Declaration des Variables 
+day=$(date +%j)
+year=$(date +%Y)
+yr=$(date +%y)
+RINEX_NAV_FILE="brdc${day}0.${yr}n"
+
+# Téléchargement & extraction du fichier 
+wget ftps://gdc.cddis.eosdis.nasa.gov/pub/gps/data/daily/$year/brdc/$RINEX_NAV_FILE.gz -O brdc_file.gz
+gunzip brdc_file.gz
+```
 
 - Trouver une position gps et avoir les infos suivantes : (Latitude,Longitude,hauteur)
 
