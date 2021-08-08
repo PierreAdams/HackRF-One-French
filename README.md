@@ -346,7 +346,7 @@ Options:
 - Executer la commande suivante en branchant le HackRF
 
 ```
-hackrf_transfer -C 4 -t gpssim.bin -f 1575420000 -s 2600000 -a 1 -x 42
+hackrf_transfer -t gpssim.bin -f 1575420000 -s 2600000 -a 1 -x 42
 ```
 
 ```
