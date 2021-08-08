@@ -366,5 +366,5 @@ Options :
        Possible values: 1.75/2.5/3.5/5/5.5/6/7/8/9/10/12/14/15/20/24/28MHz, default < sample_rate_hz.
 ```
 Si nous executons un GQRX sur les fréquences GPS nous voyons bien les ondes que le HackRF envoie : 
-![Image](https://user-images.githubusercontent.com/39098396/128634633-1cca20f0-aa3e-4840-99d1-b8242d472b0d.png)   
+![Image](https://user-images.githubusercontent.com/39098396/128635162-733e9233-48e7-4b09-9c0f-25af4831c5e2.png)   
 
