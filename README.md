@@ -319,7 +319,7 @@ gunzip brdc_file.gz
 
 - Trouver une position gps et avoir les infos suivantes : (Latitude,Longitude,hauteur)
 
-- Puis generer le fichier gpssim.bin executant cette commande en passant en argument ls position GPS voulu :
+- Puis generer le fichier gpssim.bin executant cette commande en passant en argument les position GPS voulu :
 
 ```
 $ ./gps-sdr-sim -e brdc2180.21n -b 8 -l 48.859057,2.293276,30
@@ -348,6 +348,7 @@ Options:
 ```
 hackrf_transfer -C 4 -t gpssim.bin -f 1575420000 -s 2600000 -a 1 -x 42
 ```
+
 ```
 Usage: hackrf_transfer [OPTIONS] 
 Options :
@@ -365,6 +366,7 @@ Options :
    [-b baseband_filter_bw_hz] # Set baseband filter bandwidth in MHz.
        Possible values: 1.75/2.5/3.5/5/5.5/6/7/8/9/10/12/14/15/20/24/28MHz, default < sample_rate_hz.
 ```
+
 Si nous executons un GQRX sur les fréquences GPS nous voyons bien les ondes que le HackRF envoie : 
 ![Image](https://user-images.githubusercontent.com/39098396/128635162-733e9233-48e7-4b09-9c0f-25af4831c5e2.png)   
 
