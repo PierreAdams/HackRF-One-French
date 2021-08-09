@@ -320,7 +320,7 @@ echo "le fichier est brdc_file est extrait"
 
 - Trouver une position gps et avoir les infos suivantes : (Latitude,Longitude,hauteur)
 
-- Puis generer le fichier gpssim.bin executant cette commande en passant en argument les position GPS voulu :
+- Puis generer le fichier gpssim.bin executant cette commande en passant en argument les positions GPS voulu :
 
 ```
 $ ./gps-sdr-sim -e brdc_file -b 8 -l 48.859057,2.293276,30
