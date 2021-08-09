@@ -315,6 +315,7 @@ RINEX_NAV_FILE="brdc${day}0.${yr}n"
 # Téléchargement & extraction du fichier 
 wget ftps://gdc.cddis.eosdis.nasa.gov/pub/gps/data/daily/$year/brdc/$RINEX_NAV_FILE.gz -O brdc_file.gz
 gunzip brdc_file.gz
+echo "le fichier est brdc_file est extrait"
 ```
 
 - Trouver une position gps et avoir les infos suivantes : (Latitude,Longitude,hauteur)
@@ -322,7 +323,7 @@ gunzip brdc_file.gz
 - Puis generer le fichier gpssim.bin executant cette commande en passant en argument les position GPS voulu :
 
 ```
-$ ./gps-sdr-sim -e brdc2180.21n -b 8 -l 48.859057,2.293276,30
+$ ./gps-sdr-sim -e brdc_file -b 8 -l 48.859057,2.293276,30
 ```
 
 ```
