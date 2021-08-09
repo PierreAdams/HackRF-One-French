@@ -313,8 +313,8 @@ yr=$(date +%y)
 RINEX_NAV_FILE="brdc${day}0.${yr}n"
 
 # Téléchargement & extraction du fichier 
-wget ftps://gdc.cddis.eosdis.nasa.gov/pub/gps/data/daily/$year/brdc/$RINEX_NAV_FILE.gz -O brdc_file.gz
-gunzip brdc_file.gz
+wget ftps://gdc.cddis.eosdis.nasa.gov/pub/gps/data/daily/$year/brdc/$RINEX_NAV_FILE.gz -O brdc_file`date +%d_%m_%y`.gz
+gunzip brdc_file`date +%d_%m_%y`.gz
 echo "le fichier est brdc_file est extrait"
 ```
 
