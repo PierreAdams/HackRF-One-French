@@ -384,6 +384,8 @@ Cela fonctionne tout aussi bien sur Iphone et son application intégrée : Plans
 
 Les drones possedent une sécurité GPS qui bloque les vols lorsque les utilisateurs se situe dans certaine Zone (Militaire, Aéroport, Centre Ville)
 
+![Image2](https://user-images.githubusercontent.com/39098396/128742786-bf17a5ed-7cb3-461e-8665-d5c9fb075072.png)  
+
 ![Image](https://user-images.githubusercontent.com/39098396/128742210-63b51ac0-80b2-4621-8ba0-9b5edbb01256.jpeg)
 
 Voici une map qui répertorie les endroits Autorisé / Interdit partout dans le monde.
