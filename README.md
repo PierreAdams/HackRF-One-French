@@ -382,3 +382,10 @@ Cela fonctionne tout aussi bien sur Iphone et son application intégrée : Plans
 
 ### Attaque sur Drone (DJI Mavic Mini) :
 
+Les drones possedent une sécurité GPS qui bloque les vols lorsque les utilisateurs se situe dans certaine Zone (Militaire, Aéroport, Centre Ville)
+Voici une map qui répertorie les endroits Autorisé / Interdit partout dans le monde.
+Heuresment pour nous le drone se fie au GPS du téléphone, ce qui veut donc dire que nous pouvons spoofer la positions GPS du téléphone afin de faire décoler notre drone meme dans des endroits non authorisé. 
+
+Exemple :  49.199544,5.470661,0
+
+![Image](https://user-images.githubusercontent.com/39098396/128741876-a36ea73d-5a72-4394-b246-afe9057d821a.jpeg)
