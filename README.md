@@ -390,6 +390,8 @@ Les drones possedent une sécurité GPS qui bloque les vols lorsque les utilisat
 ![Image](https://user-images.githubusercontent.com/39098396/128742210-63b51ac0-80b2-4621-8ba0-9b5edbb01256.jpeg)
 
 Voici une map qui répertorie les endroits Autorisé / Interdit partout dans le monde.
-Heuresment pour nous le drone se fie au GPS du téléphone, ce qui veut donc dire que nous pouvons spoofer la positions GPS du téléphone afin de faire décoler notre drone meme dans des endroits non authorisé. 
+![Drone-Spot](https://www.drone-spot.tech)
+
+Heureusement pour nous, le drone se fie au GPS du téléphone, ce qui veut donc dire que nous pouvons spoofer la positions GPS du téléphone afin de faire décoler notre drone dans des endroits non legitime. 
 
 Exemple :  49.199544,5.470661,0
