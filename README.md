@@ -40,13 +40,13 @@ installer le paquet hackrf (Linux) :
 Pour mettre à jour le firmware, se rendre sur le github de [Michael Ossmann](https://github.com/mossmann), l'un des menbres de Great Scott Gadget et le createur du Hackrf One.  
 Télecharger son [Repo HackRF](https://github.com/mossmann/hackrf)  
 
-pour installer l'image standard du firmware :  
+* Installer l'image standard du firmware :  
 __hackrf_spiflash -w hackrf_one_usb.bin__
 
-Pour mettre à jour le CPLD (Complex Programmable Logic Device)   
+* Mettre à jour le CPLD (Complex Programmable Logic Device)   
 __hackrf_cpldjtag -x sgpio_if/default.xsvf__
 
-Verifier si la mise à jour à été appliquée :    
+* Verifier si la mise à jour à été appliquée :    
 __hackrf_info__
 ``` hackrf_info 
 hackrf_info version: unknown
