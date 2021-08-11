@@ -45,7 +45,7 @@ Télecharger son [Repo HackRF](https://github.com/mossmann/hackrf)
 __hackrf_spiflash -w hackrf_one_usb.bin__
 ```
 
-* Mettre à jour le CPLD (Complex Programmable Logic Device)   
+* Mettre à jour le CPLD (Complex Programmable Logic Device) :
 ```
 __hackrf_cpldjtag -x sgpio_if/default.xsvf__
 ```
@@ -89,23 +89,25 @@ __hackrf_cpldjtag__ : Mettre à jour le cpld
 
 ## Portail :  
 
-Passons maintenant à la pratique,   
-pour se faire je vous conseile quelques logiciels de SDR sous linux!  
+Passons maintenant à la pratique :  
+pour se faire je vous conseille quelques logiciels de SDR sous linux :  
 * [sdr angel](https://github.com/f4exb/sdrangel) 
 * [Spectrum Analyzer](https://github.com/pavsa/hackrf-spectrum-analyzer)  
 * [gqrx](https://gqrx.dk/)
 
-J'utilise gqrx que je trouve très pratique, simple d'utilisation.
-Nous allons pour commencer, essayer d'intercepter un signal d'une telecommande de portail :  
-la première choses a faire est de trouver sur quelle fréquence la telecommande va communiquer avec le portail (en géneral 433 Mhz) souvent indiquer soit sur la telecommande, soit sur le site du constructeur si c'est pas indiqué :  
-> internet est votre ami 
+J'utilise gqrx que je trouve très pratique et simple d'utilisation.
+Nous allons pour commencer, essayer d'intercepter un signal d'une télécommande de portail :  
+la première chose à faire est de trouver sur quelle fréquence la telecommande va communiquer avec le portail (en géneral au alentour de 433 Mhz), souvent indiquer soit sur la telecommande, soit sur le site du constructeur. 
+Si ce n'est pas indiqué :  
+> Internet est votre ami 
 
-Avec gqrx on va pouvoir verifier et ajuster la fréquence (Assurez vous que le logiciel se base sur votre hackRF dans les parametres de gqrx)  
-Une fois sur notre fréquence lorsque nous activons la télecommande nous appercevons bien le signal emis  
+Avec gqrx nous allons pouvoir verifier et ajuster la fréquence d'écoute (Assurez vous que le logiciel se base sur votre hackRF dans les paramètres de gqrx)  
+Une fois sur la bonne fréquence, lorsque nous activons la télecommande nous appercevons bien le signal émis.
 
 ![Scan](https://user-images.githubusercontent.com/39098396/79851629-e0b55e80-83c5-11ea-8a63-2675dcfc38d9.png)
 
-Nous avons donc maintenant une fréquence précise. (433.910000 Mhz)
+Nous avons donc maintenant une fréquence précise : 433.910000 Mhz 
+ 
 Passons ensuite à l'enregistrement :   
 ``` hackrf_transfer -s 2 -f 433910000 -r open  ```   
 provoquer le signal pendant l'enregistrement   
