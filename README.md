@@ -117,12 +117,14 @@ Déclencher le signal pendant l'enregistrement :
 
 Puis, réinvoquer le signal devant le portail pour l'ouvrir. 
 Options utilisées :
-- s : précise le taux d'echantillons en MHz
-- f : précise la fréquence exact enregistré ou diffusé
-- r : Nom du fichier ou va être stocké notre signal 
-- t : Nom du fichier ou va être lu notre signal (afin de le retransmettre)
-- a : Amplifie le signal
-- x : le gain entre 0 et 47 dB (en Décibel)
+```
+- -s : précise le taux d'echantillons en MHz
+- -f : précise la fréquence exacte enregistrée ou diffusée
+- -r : Nom du fichier ou sera stocké notre signal 
+- -t : Nom du fichier ou sera lu notre signal (afin de le retransmettre)
+- -a : Amplifie le signal
+- -x : le gain entre 0 et 47 dB (en Décibel)
+```
 
 On peut créer un script pour plus de proffesionnalisme : 
 
