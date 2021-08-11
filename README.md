@@ -313,9 +313,10 @@ yr=$(date +%y)
 RINEX_NAV_FILE="brdc${day}0.${yr}n"
 
 # Téléchargement & extraction du fichier 
-wget ftps://gdc.cddis.eosdis.nasa.gov/pub/gps/data/daily/$year/brdc/$RINEX_NAV_FILE.gz -O brdc_file`date +%d_%m_%y`.gz
+wget -q ftps://gdc.cddis.eosdis.nasa.gov/pub/gps/data/daily/$year/brdc/$RINEX_NAV_FILE.gz -O brdc_file`date +%d_%m_%y`.gz
 gunzip brdc_file`date +%d_%m_%y`.gz
-echo "le fichier est brdc_file est extrait"
+
+echo -e " le fichier \033[32m"brdc_file`date +%d_%m_%y` "\033[00mest extrait"
 ```
 
 - Trouver une position gps et avoir les infos suivantes : (Latitude,Longitude,hauteur)
