@@ -292,7 +292,9 @@ petite [Vidéo](https://user-images.githubusercontent.com/39098396/125199892-9c3
 
 Le GPS Spoofing est une technique qui consiste à envoyer de fausse informations à un systeme GPS afin d'afficher la mauvaise position. 
 
-__Fonctionnement d'un GPS :__ Un recepteur GPS fonctionne grace au calcul de la distance entre lui et plusieurs satellites emeteur (4) via des ondes, il determine  et affiche sa position tel que nous la voyons sur un GPS classique. 
+__Fonctionnement d'un GPS :__ Un recepteur GPS fonctionne grace au calcul de la distance entre lui et plusieurs satellites emeteur (4) via des ondes, il determine  et affiche sa position tel que nous la voyons sur un GPS classique.     
+
+![Image](https://user-images.githubusercontent.com/39098396/129039739-0d750fc3-58a5-407b-bcb7-1504cb977551.png)
 
 la fréquence de signal d'un GPS basique est de 1575,42MHZ
 
