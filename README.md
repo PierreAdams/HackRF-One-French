@@ -203,7 +203,7 @@ L'onglet __Receivers__ permet de recevoir toutes sortes de fréquences :
 * __SigFox :__ Sigfox est un opérateur de télécommunications français communiquant sur la fréquence 868 MHz.
 * __LoRa :__ LoRaWAN est un protocole de télécommunication permettant la communication à bas débit, par radio, d'objets à faible consommation électrique communiquant selon la technologie LoRa 
 * __SSTV :__ Slow Scan Television, est une activité radioamateur qui vise à la transmission analogique d'images ([J'y consacre quelques lignes juste ici ](https://github.com/PierreAdams/HackRF-One-en-Francais/blob/master/README.md#sstv-slow-scan-television-)) 
-* __TETRA framing :__ Terrestrial Trunked Radio, destinés aux équipes de sécurité : elle opere entre 380-400 MHz pour les services d’urgence et dans les bandes 410-430 MHz | 450-470 MHz | 870-880 MHz pour les applications civiles et privées.
+* __TETRA framing :__ Terrestrial Trunked Radio, destinés aux équipes de sécurité : elle opére entre 380-400 MHz pour les services d’urgence et dans les bandes 410-430 MHz | 450-470 MHz | 870-880 MHz pour les applications civiles et privées.
 
 
 L'onglet __Transmitters__ permet de transmettre toutes ces fréquences. 
@@ -222,10 +222,10 @@ Info sur les Leds :
 Chaque led à une couleur differente :
 
 
-* __3V3, 1V8, RF :__  lorsque ces leds sont allumé, cela signifie que le hackrf est allimenté (par une batterie externe par exemple)  
+* __3V3, 1V8, RF :__  lorsque ces leds sont allumées, cela signifie que le Hackrf est allimenté (par une batterie externe par exemple)  
 * __USB :__ connexion USB à un ordinateur, la communication est donc possible via les commandes __hackrf..__  
-* __TX :__  le hackRF est en train de transmettre   
-* __RX :__  le hackRF est en train de recevoir   
+* __TX :__  le hackRF Transmet   
+* __RX :__  le hackRF Recoit
 
 * Le bouton __Reset__ : permet une remise à zero du Microcontrôleur
 * Le bouton __ISP / DFU__ : permet de modifier les données en cas de probleme sur le HackRF
@@ -233,10 +233,10 @@ Chaque led à une couleur differente :
 
 ## SSTV (Slow Scan Television) : 
 
-SSTV est une activité qui merite d'être creusé tellement elle est interressante, comme vu récemment c'est un mode qui permet de recevoir / émettre des images 
+SSTV est une activité qui merite d'être creusée tant elle est interressante, comme vu précedemment c'est un mode qui permet de recevoir / émettre des images 
 
 ### SSTV with HackRF ONE   
-Grace au HackRf One, nous pouvons également émettre des images via le mode SSTV :   
+Grace au HackRF One, nous pouvons également émettre des images via le mode SSTV :   
 
 Démonstration en vidéo :   
 
@@ -262,11 +262,11 @@ Logiciels permettant de decoder les images depuis un signal :
   
 source : [AMSAT](https://site.amsat-f.org/satellites/station-spatiale-internationale-i-s-s/ariss/recevoir-la-sstv-avec-liss/)  
 
-Il y à des examples de signaux SSTV à cette adresse afin de s'entrainer : [WIKI_SSTV](https://www.sigidwiki.com/wiki/Slow-Scan_Television_(SSTV))
+Il existe des exemples de signaux SSTV à cette adresse afin de s'entrainer : [WIKI_SSTV](https://www.sigidwiki.com/wiki/Slow-Scan_Television_(SSTV))
 
-*Faits interessant :*      
-il existe un programme nommé **ARISS SSTV** (Amateur Radio on the International Space Station) precedemment SAREX crée en 2011, qui transmet des images depuis l'ISS (station Spacial International) : 
-Le mode utilisé pour recevoir les images SSTV de la station est le mode **PD120**. La reception d’une image prends environ 2 minutes sur la fréquence **145.800 Mhz**   
+*Fait interessant :*      
+il existe un programme nommé **ARISS SSTV** (Amateur Radio on the International Space Station) precedemment SAREX crée en 2011, qui transmet des images depuis l'ISS (Station Spacial International) : 
+Le mode utilisé pour recevoir les images SSTV de la station est le mode **PD120**. La reception d’une image prend environ 2 minutes sur la fréquence **145.800 Mhz**   
 Nous pouvons aussi uplaoder les images que nous avons recus : [spaceflightsoftwaret](https://www.spaceflightsoftware.com/ARISS_SSTV/index.php)
 
 
@@ -274,7 +274,7 @@ Challenge très intéressant de la plateforme [Root-me](https://www.root-me.org/
 [Root-me challenge RF - Transmission Satellite](https://www.root-me.org/fr/Challenges/Reseau/RF-Transmission-satellite)
 
 *Comment faire : *   
-Dans un premier temps il est neccessaire de savoir ou se situe la Station Spatial International : 
+Dans un premier temps il est neccessaire de savoir où se situe la Station Spatial International : 
 - [Orbitron](http://blog.f1src.org/page/orbitron.htm) (Software)
 - [n2yo](https://www.n2yo.com/?s=25544&df=1) (WebSite)
 - [SpotTheStation](https://spotthestation.nasa.gov/tracking_map.cfm) 
@@ -286,14 +286,14 @@ Vidéo youtube : [ISS_SSTV_Receive](https://www.youtube.com/watch?v=QGnGE2c9io4)
 
 ## Tempest SDR [avec le HackRF ONE]
 
-Tempest SDR est un [outil open source de Martin Marinov](https://github.com/martinmarinov/TempestSDR) qui permet, grace au ondes émise de façon non intentionel,  d'afficher un écran. Concretement : un cable HDMI émet des ondes 'garbage', celles ci peuvent être récuperées et grace à l'outil Tempest SDR, nous pouvons transformer ces ondes en affichage en temps réel. 
+Tempest SDR est un [outil open source de Martin Marinov](https://github.com/martinmarinov/TempestSDR) qui permet, grace aux ondes émisent de façon non intentionelle, d'afficher un écran. Concretement : un cable HDMI émet des ondes 'garbage', celles ci peuvent être récuperées et grace à l'outil Tempest SDR, nous pouvons transformer ces ondes en affichage en temps réel. 
 [source](https://www.rtl-sdr.com/?s=tempestSDR)
 
 ![SDR](https://user-images.githubusercontent.com/39098396/125200291-b7068280-e26a-11eb-8c93-a0ac73c8bc2e.jpeg)
 
-il faut dans un premier temps conaitre sur quelle fréquence radio notre port HDMI envoie son 'garbage' : 
-nous pouvons le déterminer sur GQRX en faisant des tests de branchement / debranchement du cable. 
-Je determine donc que la 'fréquence d'émission' de mon cable est : 198 000 000 khz 
+Il faut dans un premier temps connaître sur quelle fréquence radio notre port HDMI envoie son 'garbage' : 
+nous pouvons la déterminer sur GQRX en faisant des tests de branchements / debranchements du cable. 
+Je détermine donc que la 'fréquence d'émission' de mon cable est : 198 000 000 khz 
 
 ![GQRX](https://user-images.githubusercontent.com/39098396/125199684-a1dc2480-e267-11eb-9803-69e3d6367335.png)
 
