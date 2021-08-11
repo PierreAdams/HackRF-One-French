@@ -307,7 +307,7 @@ petite [Vidéo](https://user-images.githubusercontent.com/39098396/125199892-9c3
 
 Le GPS Spoofing est une technique qui consiste à envoyer de fausses informations à un systeme GPS afin d'afficher la mauvaise position. 
 
-__Fonctionnement d'un GPS :__ Un recepteur GPS fonctionne grace au calcul de la distance entre sont capteur et plusieurs satellites émeteurs (4) via des ondes, il determine et affiche sa position tel que nous la voyons sur un GPS classique.     
+__Fonctionnement d'un GPS :__ Un recepteur GPS fonctionne grace au calcul de la distance entre sont capteur et plusieurs satellites émeteurs (4) via des ondes, il determine et affiche sa position telle que nous la voyons sur un GPS classique.     
 
 ![Image](https://user-images.githubusercontent.com/39098396/129039739-0d750fc3-58a5-407b-bcb7-1504cb977551.png)
 
@@ -338,7 +338,7 @@ echo -e " le fichier \033[32m"brdc_file`date +%d_%m_%y` "\033[00mest extrait"
 
 - Trouver une position gps et avoir les infos suivantes : (Latitude,Longitude,hauteur)
 
-- Puis generer le fichier gpssim.bin executant cette commande en passant en argument les positions GPS voulu :
+- Puis générer le fichier gpssim.bin executant cette commande en passant comme argument les positions GPS voulu :
 
 ```
 $ ./gps-sdr-sim -e brdc_file -b 8 -l 48.859057,2.293276,30
@@ -386,15 +386,15 @@ Options :
        Possible values: 1.75/2.5/3.5/5/5.5/6/7/8/9/10/12/14/15/20/24/28MHz, default < sample_rate_hz.
 ```
 
-Si nous executons un GQRX sur les fréquences GPS nous voyons bien les ondes que le HackRF envoie : 
+Si nous exécutons un GQRX sur les fréquences GPS nous voyons bien les ondes que le HackRF envoie : 
 
 ![Image](https://user-images.githubusercontent.com/39098396/128635162-733e9233-48e7-4b09-9c0f-25af4831c5e2.png)   
 
-Voici le resultat en vidéo : 
+Voici le résultat en vidéo : 
 ![Vidéo](https://user-images.githubusercontent.com/39098396/128639352-11dc3526-e1a2-4cf4-ae4e-3d4ed705c560.MOV)   
 
-Cet outil possède une portée assez puissante, de plusieurs mètres.   
-Cela fonctionne tout aussi bien sur Iphone et son application intégrée : Plans : 
+Cet outil possède une puissante de portée de plusieurs mètres.   
+Cela fonctionne aussi sur Iphone et son application intégrée : __Plans__ : 
 
 ![Image](https://user-images.githubusercontent.com/39098396/128639774-73033997-319a-4aa2-9a6c-c1b1d208ea66.JPG)
 
