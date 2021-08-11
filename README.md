@@ -362,7 +362,7 @@ Options:
   -v               Show details about simulated channels
 ```
 
-- Executer la commande suivante en branchant le HackRF
+- Exécuter la commande suivante en branchant le HackRF
 
 ```
 hackrf_transfer -t gpssim.bin -f 1575420000 -s 2600000 -a 1 -x 42
