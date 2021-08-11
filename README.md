@@ -50,7 +50,7 @@ __hackrf_spiflash -w hackrf_one_usb.bin__
 __hackrf_cpldjtag -x sgpio_if/default.xsvf__
 ```
 
-* Verifier si la mise à jour à été appliquée :    
+* Vérifier si la mise à jour à été appliquée :    
 ```
 __hackrf_info__
 ```
@@ -101,7 +101,7 @@ la première chose à faire est de trouver sur quelle fréquence la telecommande
 Si ce n'est pas indiqué :  
 > Internet est votre ami 
 
-Avec gqrx nous allons pouvoir verifier et ajuster la fréquence d'écoute (Assurez vous que le logiciel se base sur votre hackRF dans les paramètres de gqrx)  
+Avec gqrx nous allons pouvoir vérifier et ajuster la fréquence d'écoute (Assurez vous que le logiciel se base sur votre hackRF dans les paramètres de gqrx)  
 Une fois sur la bonne fréquence, lorsque nous activons la télecommande nous appercevons bien le signal émis.
 
 ![Scan](https://user-images.githubusercontent.com/39098396/79851629-e0b55e80-83c5-11ea-8a63-2675dcfc38d9.png)
