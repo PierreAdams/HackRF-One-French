@@ -110,10 +110,13 @@ Nous avons donc maintenant une fréquence précise : 433.910000 Mhz
  
 Passons ensuite à l'enregistrement :   
 ``` hackrf_transfer -s 2 -f 433910000 -r open  ```   
-provoquer le signal pendant l'enregistrement   
+
+Déclencher le signal pendant l'enregistrement :  
+
 ``` hackrf_transfer -s 2 -f 433910000 -t open -a 1 -x 24  ```   
-puis réinvoquer le signal devant le portail pour l'ouvrir  
-options  utilisées 
+
+Puis, réinvoquer le signal devant le portail pour l'ouvrir. 
+Options utilisées :
 - s : précise le taux d'echantillons en MHz
 - f : précise la fréquence exact enregistré ou diffusé
 - r : Nom du fichier ou va être stocké notre signal 
