@@ -139,32 +139,33 @@ figlet C'est ouvert !
 
 Il s'agit du même procédé, nous trouvons la fréquence, capturons le signal, le stockons et le rediffusons à notre guise. 
 
-Dans mon cas, je capte le signal sur la fréquence 446 Mhz 
-je capture une séquence d'apell par exemple  :   
+Dans mon cas, je capte le signal sur la fréquence 446 Mhz.
+
+je capture une séquence d'apel par exemple  :   
 ```hackrf_transfer -s 2 -f 446000000 -r HackyWalkie```  
-et la difuse    
+et la rediffuse    
 ```hackrf_transfer -s 2 -f 446000000 -r HackyWalkie```   
 
 [Regarder la vidéo](https://www.youtube.com/watch?v=4-qAzXwfjRY)
 
 ## Manipulation - Portapack :  
 
-Avec le portapack, toutes les manipulations effectuées juste avant pourront desormais être réalisés directement sur le portapack. 
+Avec le portapack, toutes les manipulations que nous avons effectuées précedemment, pourront desormais être réalisés directement sur le portapack. 
 
 Voici le menu d'__Havoc__ :  
 
 ![Scan](https://user-images.githubusercontent.com/39098396/80214273-d8b22480-863a-11ea-9671-3e846ce77b4f.PNG)
 
-Prenons par exemple, une lampe avec une télécommande Hertzienne, nous pouvons voir qu'elle communique avec la lampe sur la fréquence 433.920 Mhz    
+Prenons par exemple, une lampe avec une télécommande Hertzienne, nous pouvons voir qu'elle communique avec celle-ci sur la fréquence 433.920 Mhz.    
 ![Scan](https://user-images.githubusercontent.com/39098396/80212189-55430400-8637-11ea-9ea9-405f934ed19b.JPG)
 
-Sur le portapack, dans l'onglet "Capture" nous allons régler la fréquence sur 433.9 Mhz, écouter le signal puis l'enregistrer afin de le rediffuser par la suite. 
+Sur le portapack, dans l'onglet "Capture" nous allons régler la fréquence sur 433.9 Mhz, écouter le signal puis l'enregistrer afin de le rediffuser : 
 
 ![Scan](https://user-images.githubusercontent.com/39098396/80214995-08adf780-863c-11ea-871c-abbaafd03fc4.PNG)  
 ![Scan](https://user-images.githubusercontent.com/39098396/80214019-6a6d6200-863a-11ea-8f5b-724de95f83ec.PNG)
 
 
-Une fois le signal capturé : se rendre dans la partie "Replay", puis ouvrir le fichier contenant le sginal capturé à l'instant. (éventuellement régler la fréquence de diffusion)
+Une fois le signal capturé : se rendre dans la partie "Replay", ouvrir le fichier contenant le sginal capturé. (éventuellement régler la fréquence de diffusion)
 
 
 ![Scan](https://user-images.githubusercontent.com/39098396/80214776-b371e600-863b-11ea-8f68-dff7b8b85ac1.PNG)  
@@ -175,12 +176,12 @@ Une fois le signal capturé : se rendre dans la partie "Replay", puis ouvrir le 
 
 Le Wiki du Github de furrtek explique très bien toutes les options que nous offre le Portapack: https://github.com/furrtek/portapack-havoc/wiki
 
-L'onglet __Play Dead__ est une sorte de barrière pour empecher les ignorants d'utiliser le portapack :  
+L'onglet __Play Dead__ est une sorte de barrière pour empecher les néophytes d'utiliser le portapack :  
 l'erreur Firmware suivante apparait lorsqu'on rentre dans l'onglet : 
 
 ![Scan](https://user-images.githubusercontent.com/39098396/80584597-33b89280-8a12-11ea-81ae-130242bf418f.PNG)
 
-Pour sortir, il faut entrer la combinaison prédefinit dans l'onglet : __Settings__ > __Play dead__    
+Pour sortir, il faut entrer la combinaison prédefinie dans l'onglet : __Settings__ > __Play dead__    
 Par defaut cette combinaison est :  __Haut-Bas-Gauche-Droite__ (Le bouton __Reset__ marche aussi ^^)  
 
 L'onglet __"Search/CLose Call"__ permet d'identifier exactement la fréquence d'un signal, on précise un fenêtre, et on déclenche l'émetteur :   
@@ -191,9 +192,9 @@ L'onglet __Receivers__ permet de recevoir toutes sortes de fréquences :
 * __AD-B: Plane :__ système de surveillance pour le contrôle du trafic aérien (connaitre la position des avions)
 * __ACARS :__ système de communication/surveillance entre les aéronef et les sations au sol
 * __AIS :__  système d’échanges automatisés de messages entre navires par radio 
-* __AFSk :__ audio frequency-shift keying,  conçue pour véhiculer la voix ou de la musique, par exemple une liaison téléphone ou radio.
+* __AFSk :__ audio frequency-shift keying, conçue pour véhiculer la voix ou de la musique, par exemple une liaison téléphone ou radio.
 * __AUDIO :__ Recpteur Audio capable de recevoir different mode de fréquences (AM et FM) ![lien Github sharebrained](https://github.com/sharebrained/portapack-hackrf/wiki/Audio-Modes)
-* __ERT :__ Paquet contenant les données d'un compteur éléctrique/Gaz pour faciliter la collect de données.
+* __ERT :__ Paquet contenant les données d'un compteur éléctrique/Gaz pour faciliter la collecte de données.
 * __POCSAG :__ Protocole de transmission radio utilisé pour les réseaux de radiomessagerie.
 * __Radiosondes :__ 
 * __TPMS :__ Tyre Pressure Monitoring System en anglais, Système de surveillance de la pression des pneumatiques.
@@ -201,7 +202,7 @@ L'onglet __Receivers__ permet de recevoir toutes sortes de fréquences :
 * __DMR framing :__ Digital Mobile Radio, norme de radio numérique mobile ouverte et utilisée dans des produits commerciaux à travers le monde.
 * __SigFox :__ Sigfox est un opérateur de télécommunications français communiquant sur la fréquence 868 MHz.
 * __LoRa :__ LoRaWAN est un protocole de télécommunication permettant la communication à bas débit, par radio, d'objets à faible consommation électrique communiquant selon la technologie LoRa 
-* __SSTV :__ Slow Scan Television, est une activité radioamateur qui vise à la transmission analogique d'images ([J'y ai consacré quelques lignes](https://github.com/PierreAdams/HackRF-One-en-Francais/blob/master/README.md#sstv-slow-scan-television-)) 
+* __SSTV :__ Slow Scan Television, est une activité radioamateur qui vise à la transmission analogique d'images ([J'y consacre quelques lignes juste ici ](https://github.com/PierreAdams/HackRF-One-en-Francais/blob/master/README.md#sstv-slow-scan-television-)) 
 * __TETRA framing :__ Terrestrial Trunked Radio, destinés aux équipes de sécurité : elle opere entre 380-400 MHz pour les services d’urgence et dans les bandes 410-430 MHz | 450-470 MHz | 870-880 MHz pour les applications civiles et privées.
 
 
