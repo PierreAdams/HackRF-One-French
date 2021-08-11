@@ -286,7 +286,7 @@ Vidéo youtube : [ISS_SSTV_Receive](https://www.youtube.com/watch?v=QGnGE2c9io4)
 
 ## Tempest SDR [avec le HackRF ONE]
 
-Tempest SDR est un [outil open source de Martin Marinov](https://github.com/martinmarinov/TempestSDR) qui permet, grace aux ondes émisent de façon non intentionelle, d'afficher un écran. Concretement : un cable HDMI émet des ondes 'garbage', celles ci peuvent être récuperées et grace à l'outil Tempest SDR, nous pouvons transformer ces ondes en affichage en temps réel. 
+Tempest SDR est un [outil open source de Martin Marinov](https://github.com/martinmarinov/TempestSDR) qui permet, grace aux ondes émisent de façon non intentionelle, d'afficher le contenu d'un écran. Concretement : un cable HDMI émet des ondes 'garbage', celles ci peuvent être récuperées et grace à l'outil Tempest SDR, nous pouvons transformer ces ondes en affichage en temps réel. 
 [source](https://www.rtl-sdr.com/?s=tempestSDR)
 
 ![SDR](https://user-images.githubusercontent.com/39098396/125200291-b7068280-e26a-11eb-8c93-a0ac73c8bc2e.jpeg)
@@ -297,7 +297,7 @@ Je détermine donc que la 'fréquence d'émission' de mon cable est : 198 000 00
 
 ![GQRX](https://user-images.githubusercontent.com/39098396/125199684-a1dc2480-e267-11eb-9803-69e3d6367335.png)
 
-Je branche mon hackRF, je pointe l'antenne vers le port HDMI de mon écran, puis je lance l'outil en écoutant sur la bonne fréquence, je dois aussi connaitre la résolution et le taux de rafraichissement de l'écran cible, et voilaaa :    
+Je branche mon hackRF, je pointe l'antenne vers le port HDMI de mon écran, puis je lance l'outil en écoutant sur la bonne fréquence, je dois aussi connaitre la résolution et le taux de rafraichissement de l'écran cible, et voila :    
 
 ![TempestSDR](https://user-images.githubusercontent.com/39098396/125199259-a9023300-e265-11eb-867c-96a8a2418b7f.PNG)   
 petite [Vidéo](https://user-images.githubusercontent.com/39098396/125199892-9c330e80-e268-11eb-9fa8-df8dac52068b.mp4) demonstrative de l'outil et de ce qu'on peut faire avec 
@@ -305,9 +305,9 @@ petite [Vidéo](https://user-images.githubusercontent.com/39098396/125199892-9c3
 
 ## GPS Spoofing via HackRF One 
 
-Le GPS Spoofing est une technique qui consiste à envoyer de fausse informations à un systeme GPS afin d'afficher la mauvaise position. 
+Le GPS Spoofing est une technique qui consiste à envoyer de fausses informations à un systeme GPS afin d'afficher la mauvaise position. 
 
-__Fonctionnement d'un GPS :__ Un recepteur GPS fonctionne grace au calcul de la distance entre lui et plusieurs satellites emeteur (4) via des ondes, il determine  et affiche sa position tel que nous la voyons sur un GPS classique.     
+__Fonctionnement d'un GPS :__ Un recepteur GPS fonctionne grace au calcul de la distance entre sont capteur et plusieurs satellites émeteurs (4) via des ondes, il determine et affiche sa position tel que nous la voyons sur un GPS classique.     
 
 ![Image](https://user-images.githubusercontent.com/39098396/129039739-0d750fc3-58a5-407b-bcb7-1504cb977551.png)
 
