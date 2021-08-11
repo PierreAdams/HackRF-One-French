@@ -19,12 +19,12 @@ le portapack permet d'avoir une interface graphique, et d'effectuer des manipula
 - le firmware officiel, développer par sharebrained : https://github.com/sharebrained/portapack-hackrf/  
 - Havoc est un firmware __Non officiel__ pour le portapack développé par le grand [furrtek](https://github.com/furrtek/portapack-havoc)  
 
-__Note :__ il existe des versions non officiels des portapacks pour hackRF One pour l'avoir testé, celui fonctionne tout aussi bien ! : [Lien Amazon](https://www.amazon.fr/TOOGOO-Panneau-Tactile-Portapack-lhorloge/dp/B07WHJ8WGX/ref=sr_1_fkmr1_2?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=portapack+bogood&qid=1587725047&sr=8-2-fkmr1)  
+__Note :__ il existe des versions non officiels des portapacks pour hackRF One pour l'avoir testé, celui-ci fonctionne tout aussi bien ! : [Lien Amazon](https://www.amazon.fr/TOOGOO-Panneau-Tactile-Portapack-lhorloge/dp/B07WHJ8WGX/ref=sr_1_fkmr1_2?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=portapack+bogood&qid=1587725047&sr=8-2-fkmr1)  
 
-Pour installer le firmware __Havoc__ sur Windows, une vidéo youtube trés claire à été réaliser sur le sujet :   
+Pour installer le firmware __Havoc__ sur Windows, une vidéo youtube trés claire à été réalisée sur le sujet :   
 [Lien Youtube](https://www.youtube.com/watch?v=f0S9jWkRaQU.gif)
 
-Lorsque le firmware de votre portapack sera installé il sera toujours possible d'activer le mode hackRF (sur pc) il suffit d'activer l'option __"HackRF Mode"__ dans le menu.  
+Lorsque le firmware de votre portapack sera installé il sera toujours possible de lancer le mode hackRF (sur pc) il suffit d'activer l'option __"HackRF Mode"__ dans le menu.  
 
 ![Scan](https://user-images.githubusercontent.com/39098396/80219795-42363100-8643-11ea-89bd-fab7d90ed604.PNG)  
 
@@ -33,8 +33,8 @@ Lorsque le firmware de votre portapack sera installé il sera toujours possible 
 
 ## Premier Branchement + Mise à jour du Firmware :  
 
-La première chose à faire une fois le HackRF reçu, il faut mettre à jour le firmware et installer le paquet HackRF:   
-installer le paquet hackrf :   
+Lorsque vous aurez reçu le HackRF, il faut d'abord mettre à jour le firmware et installer le paquet HackRF sur un PC:   
+installer le paquet hackrf (Linux) :   
 ``` apt install hackrf ```   
 
 Pour mettre à jour le firmware, se rendre sur le github de [Michael Ossmann](https://github.com/mossmann), l'un des menbres de Great Scott Gadget et le createur du Hackrf One.  
