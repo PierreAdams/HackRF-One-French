@@ -126,7 +126,7 @@ Options utilisées :
  -x : le gain entre 0 et 47 dB (en Décibel)
 ```
 
-On peut créer un script pour plus de proffesionnalisme : 
+On peut créer un script pour plus de professionnalisme : 
 
 ```
 figlet Sesame, Ouvre toi ! 
