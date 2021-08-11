@@ -137,7 +137,7 @@ figlet C'est ouvert !
 
 ## Talkie-Walkie : 
 
-C'est exactement le même procédé nous trouvons la fréquence, capturons le signal, le stockons et le rediffusons à notre guise. 
+Il s'agit du même procédé, nous trouvons la fréquence, capturons le signal, le stockons et le rediffusons à notre guise. 
 
 Dans mon cas, je capte le signal sur la fréquence 446 Mhz 
 je capture une séquence d'apell par exemple  :   
