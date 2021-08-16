@@ -414,6 +414,10 @@ Cependant, il faut savoir que le drone se fie au GPS du téléphone, ce qui veut
 Exemple :  49.199544,5.470661,0
 
 Mais qu'en est t'il d'un spoofing d'endroits 'NO FLY ZONE' lors d'un vol de drone dans un endoit autorisé : 
+Dans ce cas, je vais simuler un vol au dessus d'un aéroport pendant un vol légitime : 
+
+la position va se changer et le message suivant apparait : 
+
 
 ![Image](https://user-images.githubusercontent.com/39098396/129611809-87c16fdb-399d-4334-a379-bdf492f5191e.PNG)
 
