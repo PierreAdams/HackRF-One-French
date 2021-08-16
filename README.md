@@ -416,9 +416,13 @@ Exemple :  49.199544,5.470661,0
 Mais qu'en est t'il d'un spoofing d'endroits 'NO FLY ZONE' lors d'un vol de drone dans un endoit autorisé : 
 Dans ce cas, je vais simuler un vol au dessus d'un aéroport pendant un vol légitime : 
 
-la position va se changer et le message suivant apparait : 
+la position va se changer et le message suivant apparait : (le pilote dispose de 90 secondes pour partir de la NON FLY ZONE) sinon le drone procedera à un aterissage automatique. 
 
 
 ![Image](https://user-images.githubusercontent.com/39098396/129611809-87c16fdb-399d-4334-a379-bdf492f5191e.PNG)
 
+Puis impossible de faire redecoller le drone par la suite : 
+
+
+![Image](https://user-images.githubusercontent.com/39098396/129612565-74461bb0-c93d-4657-abf9-27c13c2f7f5d.PNG)
 
