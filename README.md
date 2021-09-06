@@ -145,7 +145,7 @@ Dans mon cas, je capte le signal sur la fréquence 446 Mhz.
 je capture une séquence d'apel par exemple  :   
 ```hackrf_transfer -s 2 -f 446000000 -r HackyWalkie```  
 et la rediffuse    
-```hackrf_transfer -s 2 -f 446000000 -r HackyWalkie```   
+```hackrf_transfer -s 2 -f 446000000 -t HackyWalkie```   
 
 [Regarder la vidéo](https://www.youtube.com/watch?v=4-qAzXwfjRY)
 
