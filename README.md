@@ -43,17 +43,17 @@ Télecharger son [Repo HackRF](https://github.com/mossmann/hackrf)
 
 * Installer l'image standard du firmware :  
 ``` 
-__hackrf_spiflash -w hackrf_one_usb.bin__
+hackrf_spiflash -w hackrf_one_usb.bin
 ```
 
 * Mettre à jour le CPLD (Complex Programmable Logic Device) :
 ```
-__hackrf_cpldjtag -x sgpio_if/default.xsvf__
+hackrf_cpldjtag -x sgpio_if/default.xsvf
 ```
 
 * Vérifier si la mise à jour à été appliquée :    
 ```
-__hackrf_info__
+hackrf_info
 ```
 
 ``` hackrf_info 
