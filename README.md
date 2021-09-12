@@ -149,6 +149,14 @@ et la rediffuse
 
 [Regarder la vidéo](https://www.youtube.com/watch?v=4-qAzXwfjRY)
 
+
+## Car key Replay Attack
+
+La plupart de nos voitures aujourd'hui sont livrées avec un porte-clé de déverouillage à distance, ce qui est incroyablement pratique, pratique certe, mais vulnérable, c'est ce que nous allons voir maintenant : 
+
+- Pour ne pas que les voitures soit vulnérables à une attaque toute simple de Replay Attack, les constructeur ont équipé leurs (nouvelles) voitures d'un systeme de code roulant (rolling code system) chaque fois que vous appuyez sur le bouton de déverrouillage, la télécommande utilise un algorithme pour générer un nouveau code. ce qui rend les attaques comme celle ci impossible 
+
+
 ## Manipulation - Portapack :  
 
 Avec le portapack, toutes les manipulations que nous avons effectuées précedemment, pourront desormais être réalisés directement sur le portapack. 
