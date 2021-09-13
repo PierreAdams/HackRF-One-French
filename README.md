@@ -164,9 +164,10 @@ Pour la capture et la rediffusion du signal, je vais utiliser le merveilleux out
 
 Etapes : 
 
-1) Connaitre la fréquence du signal de notre télécommande ( en Europe, la fréquence d'un signal de clé de voiture est autour de 433,9) je regle donc ma fréquence en conséquence 
-2) Record le signal  ( enlever le surplus / Bruit parasite) 
-3) Rejouer le signal sur la même fréquence  
+* Connaitre la fréquence du signal de notre télécommande ( en Europe, la fréquence d'un signal de clé de voiture est autour de 433,9) je regle donc ma fréquence en conséquence 
+![Scan]()
+* Record le signal  ( enlever le surplus / Bruit parasite) 
+* Rejouer le signal sur la même fréquence  
 * Bonus 1 ) Avec URH, nous pouvons décoder le signal ( Manchester, Substitution, Morse Manchester I, Wireless Short Packet-WSP, ...) 
 * Bonus 2) Cet outil nous permet aussi d'analyser le signal et d'extraire les données binaires, pour ensuite, faire un reverse du signal afin de comprendre qu'est ce qu'il fait. 
 
