@@ -166,7 +166,8 @@ Etapes :
 
 * Connaitre la fréquence du signal de notre télécommande ( en Europe, la fréquence d'un signal de clé de voiture est autour de 433,9) je reglerais donc ma fréquence en conséquence 
 * Record le signal  ( enlever le surplus / Bruit parasite)     
-![Scan](https://user-images.githubusercontent.com/39098396/133143846-ce68d878-ce73-4535-9185-7a5d17adbd80.png)
+![Scan](https://user-images.githubusercontent.com/39098396/133143846-ce68d878-ce73-4535-9185-7a5d17adbd80.png)  
+  
 ![Scan](https://user-images.githubusercontent.com/39098396/133303323-59f590eb-a2ff-40f2-8e46-bedf08757865.png)
 * Rejouer le signal sur la même fréquence  
 * Bonus 1 ) Avec URH, nous pouvons décoder le signal ( Manchester, Substitution, Morse Manchester I, Wireless Short Packet-WSP, ...) 
