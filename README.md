@@ -305,8 +305,10 @@ Dans un premier temps il est neccessaire de savoir où se situe la Station Spati
 - [Orbitron](http://blog.f1src.org/page/orbitron.htm) (Software)
 - [n2yo](https://www.n2yo.com/?s=25544&df=1) (WebSite)
 - [SpotTheStation](https://spotthestation.nasa.gov/tracking_map.cfm) 
+- [ISS Finder](https://apps.apple.com/fr/app/iss-finder/id670637083) 
 
-il faut que l'ISS se trouve a proximité de notre antenne, pour commencer à recevoir le signal SSTV :     
+Il faut que l'ISS se trouve a proximité de notre antenne, pour commencer à recevoir le signal SSTV :  
+et que bien sur, un programme de diffusion de signaux SSTV soit en cours, pour être au courant des programmes de diffusions, nous pouvons nous rendre sur : https://ariss-sstv.blogspot.com ou sur le twitter de ARISSFR 
 
 Vidéo youtube : [ISS_SSTV_Receive](https://www.youtube.com/watch?v=QGnGE2c9io4)
 
