@@ -190,7 +190,7 @@ En émettant du bruit sur la fréquence d'une clés de voiture,le signal de la t
 ![Scan](https://user-images.githubusercontent.com/39098396/137524034-0bec7858-23dc-4b1e-baac-76b5eb74a0e0.png)  
 Résultat de Sharp SDR pour la fréquence 433.9 MHz 
 
-Le module Jamming du Portapack Havoc nous permet d'emettre ce genre de bruit: 
+Le module Jamming du Portapack Havoc nous permet d'emettre ce genre de bruit :  
 ![Scan](https://user-images.githubusercontent.com/39098396/137525873-80687a54-d7b5-4ab0-b550-12ec9fdd61af.PNG)  
 
 Vidéo Démonstration : [Jamming Car Key](https://www.youtube.com/watch?v=p4drw8csLSE)
