@@ -179,16 +179,22 @@ Etapes :
 
 Le jamming (Brouillage) est une technique (illégal bien sur) visant à perturbé les fréquence comportant des informations en submergant une fréquence avec du bruit. 
 
-il existe des appareil servant spécifiquement à effectuer ce genre d'actions ( Yard Stick One, ... )  
+Il existe des appareil servant spécifiquement à effectuer ce genre d'actions ( Yard Stick One, ... )  
 
 Le brouillage se distingue généralement des interférences qui peuvent survenir en raison de dysfonctionnements de l'appareil ou d'autres circonstances accidentelles.
 
 ## Jamming Car Key 
 
-Nous allons commencer simplement, en emmetant tout simplement du bruit sur la fréquence d'une cléfs de voiture : 
+En émettant du bruit sur la fréquence d'une clés de voiture,le signal de la télécommande est 'noyé' parmis les fausses ondes émises :
 
-![Scan](https://user-images.githubusercontent.com/39098396/137524034-0bec7858-23dc-4b1e-baac-76b5eb74a0e0.png)
+![Scan](https://user-images.githubusercontent.com/39098396/137524034-0bec7858-23dc-4b1e-baac-76b5eb74a0e0.png)  
+Résultat de Sharp SDR pour la fréquence 433.9 MHz 
 
+Le module Jamming du Portapack Havoc nous permet d'emettre ce genre de bruit: 
+![Scan]()  
+
+Vidéo Démonstration : [Jamming Car Key](https://www.youtube.com/watch?v=p4drw8csLSE)
+ 
 
 ## Manipulation - Portapack :  
 
