@@ -175,6 +175,21 @@ Etapes :
 ![Scan](https://user-images.githubusercontent.com/39098396/133304547-88aa74d9-4dc9-4198-ad24-1363f1e9f73b.png)
 
 
+# Radio Jamming : 
+
+Le jamming (Brouillage) est une technique (illégal bien sur) visant à perturbé les fréquence comportant des informations en submergant une fréquence avec du bruit. 
+
+il existe des appareil servant spécifiquement à effectuer ce genre d'actions ( Yard Stick One, ... )  
+
+Le brouillage se distingue généralement des interférences qui peuvent survenir en raison de dysfonctionnements de l'appareil ou d'autres circonstances accidentelles.
+
+## Jamming Car Key 
+
+Nous allons commencer simplement, en emmetant tout simplement du bruit sur la fréquence d'une cléfs de voiture : 
+
+![Scan]()
+
+
 ## Manipulation - Portapack :  
 
 Avec le portapack, toutes les manipulations que nous avons effectuées précedemment, pourront desormais être réalisés directement sur le portapack. 
