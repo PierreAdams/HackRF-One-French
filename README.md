@@ -202,10 +202,10 @@ Les fréquences du WiFi sont les bandes 2,4 GHz et 5 GHz.
 > Les principales différences entre les deux fréquences sont la portée (couverture) et la bande passante (vitesse) fournies par les bandes. La bande 2,4 GHz offre une couverture sur une plus longue portée mais transmet les données à des vitesses plus lentes. La bande 5 GHz offre une couverture moindre mais transmet les données à des vitesses plus rapides.
 
 Sur la bande 2.4 Ghz Voici la liste des canaux (et fréquences associées) autorisés en Wi-Fi : 
-![Scan](https://user-images.githubusercontent.com/39098396/137525873-80687a54-d7b5-4ab0-b550-12ec9fdd61af.PNG)  
+![Scan](https://user-images.githubusercontent.com/39098396/137624125-c0ada0c7-7322-48e5-80ac-ce672ae9685a.jpg)  
 
-Cette démonstration est à titre educative, elle n'est en aucun cas à reproduire chez vous : 
 Vidéo Démonstration : [Jamming Wifi Signal on 2.4Ghz](https://www.youtube.com/watch?v=p4drw8csLSE)
+> Cette démonstration est en aucun cas à reproduire chez vous, elle nous sert uniquement à comprendre comment le jamming WIFI fonctionne : 
 
 
 ## Manipulation - Portapack :  
