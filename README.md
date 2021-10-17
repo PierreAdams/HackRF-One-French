@@ -204,9 +204,14 @@ Les fréquences du WiFi sont les bandes 2,4 GHz et 5 GHz.
 Sur la bande 2.4 Ghz Voici la liste des canaux (et fréquences associées) autorisés en Wi-Fi : 
 ![Scan](https://user-images.githubusercontent.com/39098396/137624125-c0ada0c7-7322-48e5-80ac-ce672ae9685a.jpg)  
 
+Une fois le canal déterminé, nous connaissons la fréquence exact sur laquelle un appareil communique avec le routeur.
+Nous pouvons ensuite construire un graph Gnuradio afin de génerer du bruit sur cette meme fréquence comme ceci : 
+![Scan](https://user-images.githubusercontent.com/39098396/137624826-89764ea5-6fc8-4482-8774-2fd966cc3c57.png)  
+
+> pour réaliser ceci, je me suis fortement inspiré de [Ce repo Github](https://github.com/timkim0713/RFJamming-FMRadio-SDR) 
+
 Vidéo Démonstration : [Jamming Wifi Signal on 2.4Ghz](https://www.youtube.com/watch?v=p4drw8csLSE)
 > Cette démonstration est en aucun cas à reproduire chez vous, elle nous sert uniquement à comprendre comment le jamming WIFI fonctionne : 
-
 
 ## Manipulation - Portapack :  
 
