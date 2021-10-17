@@ -195,6 +195,18 @@ Le module Jamming du Portapack Havoc nous permet d'emettre ce genre de bruit :
 
 Vidéo Démonstration : [Jamming Car Key](https://www.youtube.com/watch?v=p4drw8csLSE)
  
+ ## Jamming Wifi ( 2.4GHz) 
+
+Les fréquences du WiFi sont les bandes 2,4 GHz et 5 GHz.
+
+> Les principales différences entre les deux fréquences sont la portée (couverture) et la bande passante (vitesse) fournies par les bandes. La bande 2,4 GHz offre une couverture sur une plus longue portée mais transmet les données à des vitesses plus lentes. La bande 5 GHz offre une couverture moindre mais transmet les données à des vitesses plus rapides.
+
+Sur la bande 2.4 Ghz Voici la liste des canaux (et fréquences associées) autorisés en Wi-Fi : 
+![Scan](https://user-images.githubusercontent.com/39098396/137525873-80687a54-d7b5-4ab0-b550-12ec9fdd61af.PNG)  
+
+Cette démonstration est à titre educative, elle n'est en aucun cas à reproduire chez vous : 
+Vidéo Démonstration : [Jamming Wifi Signal on 2.4Ghz](https://www.youtube.com/watch?v=p4drw8csLSE)
+
 
 ## Manipulation - Portapack :  
 
