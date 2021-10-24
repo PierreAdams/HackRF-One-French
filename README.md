@@ -177,9 +177,9 @@ Etapes :
 
 # Radio Jamming : 
 
-Le jamming (Brouillage) est une technique (illégal bien sur) visant à perturbé les fréquence comportant des informations en submergant une fréquence avec du bruit. 
+Le jamming (Brouillage) est une technique (illégal bien sur) visant à perturber les fréquences comportant des informations, en submergant une fréquence avec du bruit. 
 
-Il existe des appareil servant spécifiquement à effectuer ce genre d'actions ( Yard Stick One, ... )  
+Il existe des appareils servant spécifiquement à effectuer ce genre d'actions ( Yard Stick One, ... )  
 
 Le brouillage se distingue généralement des interférences qui peuvent survenir en raison de dysfonctionnements de l'appareil ou d'autres circonstances accidentelles.
 
