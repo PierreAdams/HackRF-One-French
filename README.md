@@ -38,11 +38,12 @@ __Prix__ : environ 300€ (Antenne comprise)
 __Réception / Emission__ : de 10Mhz à 6Ghz
 
 ## PortaPack  
-Le HackRF peut être integré dans un boite nommée un "PortaPack" [lien github](https://github.com/furrtek/portapack-havoc)  
+Le PortaPack est une coque rigide avec un écran LCD et des touches de navigation
+[lien github](https://github.com/furrtek/portapack-havoc)  
 ![Scan](https://user-images.githubusercontent.com/39098396/79736658-72579a00-82fa-11ea-8692-116d2b8a5461.jpeg)  
 __Prix__ : 200 €  
-le portapack permet d'avoir une interface graphique, et d'effectuer des manipulation sur le hackRF One.  
-- le firmware officiel, développer par sharebrained : https://github.com/sharebrained/portapack-hackrf/  
+le portapack permet d'avoir une interface graphique, et d'effectuer des manipulation directement sur le hackRF One.  
+- le firmware officiel, développé par sharebrained : https://github.com/sharebrained/portapack-hackrf/  
 - Havoc est un firmware __Non officiel__ pour le portapack développé par le grand [furrtek](https://github.com/furrtek/portapack-havoc)  
 
 __Note :__ il existe des versions non officiels des portapacks pour hackRF One pour l'avoir testé, celui-ci fonctionne tout aussi bien ! : [Lien Amazon](
