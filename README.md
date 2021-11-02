@@ -24,9 +24,12 @@ Table des matières :
   - [GPS Attaque Spoofing Drone DJI](https://github.com/PierreAdams/HackRF-One-French#attaque-sur-drone-dji-mavic-mini-) 
 
 ## SDR 
-Dans un premier temps, il est intéressant de savoir ce qu'est le SDR : 
-> Software Defined Radio : Pour faire simple il s'agit d'une radio (recepteur/émeteur) remplacée logicielement  
+
+Le Software Defined Radio (Radio Logiciel) est un récepteur ( et parfois émetteur ) radio remplacé logicielement et matériellement, donc capable de réaliser de manière logicielle des traitements numériques.   
 __Avantage__ : la puissance du pc permet de traiter les signaux  
+
+Les radios logicielles permettent l'utilisation de multiples formes d'ondes, éventuellement dans différentes bandes spectrales, pour différents usages, voire même de façon simultanée. 
+Depuis quelques années, la technologie des radios logiciels a fortement, entrainant la réduction des temps et des coûts de conception des produits radios. 
  
 ## HackRF One  
 le HackRF est un outil de SDR, crée par [Great Scott Gadget](https://greatscottgadgets.com)  
