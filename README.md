@@ -32,7 +32,7 @@ Les radios logicielles permettent l'utilisation de multiples formes d'ondes, év
 Depuis quelques années, la technologie des radios logiciels a fortement, entrainant la réduction des temps et des coûts de conception des produits radios. 
  
 ## HackRF One  
-le HackRF est un outil de SDR, crée par [Great Scott Gadget](https://greatscottgadgets.com) en 2014 
+le HackRF est un outil de SDR, crée par [Great Scott Gadget](https://greatscottgadgets.com) en 2014   
 ![Scan](https://user-images.githubusercontent.com/39098396/79736639-6d92e600-82fa-11ea-8e76-a5e6a3ea749a.jpeg)  
 __Prix__ : environ 300€ (Antenne comprise)  
 __Réception / Emission__ : de 10Mhz à 6Ghz
