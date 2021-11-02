@@ -5,6 +5,7 @@ Table des matières :
   - [sdr](https://github.com/PierreAdams/HackRF-One-French#sdr)
   - [HackRF One](https://github.com/PierreAdams/HackRF-One-French#hackrf-one)
   - [PortaPack](https://github.com/PierreAdams/HackRF-One-French#portapack)
+    - [Configuration PortaPack](https://github.com/PierreAdams/HackRF-One-French#premier-branchement--mise-%C3%A0-jour-du-firmware-)
 - [Démonstration](https://github.com/PierreAdams/HackRF-One-French#d%C3%A9monstration-) 
   - [Replay Attaque](https://github.com/PierreAdams/HackRF-One-French#portail-) 
     - [Portail](https://github.com/PierreAdams/HackRF-One-French#portail-)
