@@ -4,7 +4,7 @@ Table des matières :
 - [Présentation](https://github.com/PierreAdams/HackRF-One-French#pr%C3%A9sentation-sdr-w-hackrf-one) 
   - [sdr](https://github.com/PierreAdams/HackRF-One-French#sdr)
   - [HackRF One](https://github.com/PierreAdams/HackRF-One-French#hackrf-one)
-    - [Commandes HackRF One - Linux]()
+    - [Commandes HackRF One - Linux](https://github.com/PierreAdams/HackRF-One-French#commandes-hackrf-one-)
   - [PortaPack](https://github.com/PierreAdams/HackRF-One-French#portapack)
     - [Configuration PortaPack](https://github.com/PierreAdams/HackRF-One-French#premier-branchement--mise-%C3%A0-jour-du-firmware-)
 - [Démonstration](https://github.com/PierreAdams/HackRF-One-French#d%C3%A9monstration-) 
@@ -111,11 +111,11 @@ Firmware Version: 2018.01.1 (API:1.02)
 Part ID Number: 0xa000cb3c 0x00724357
 ```
 
-## Petit rappel utile - Convertion MHz - Ghz 
+### Petit rappel utile - Convertion MHz - Ghz : 
 ![Scan](https://user-images.githubusercontent.com/39098396/79741752-109b2e00-8302-11ea-80d2-f7132bdcff0b.png)
 
 
-## Démonstration :  
+# Démonstration :  
 
 Passons maintenant à la pratique :  
 pour se faire je vous conseille quelques logiciels de SDR sous linux :  
@@ -125,9 +125,9 @@ pour se faire je vous conseille quelques logiciels de SDR sous linux :
 
 J'utilise gqrx que je trouve très pratique et simple d'utilisation.
 
-### Replay Attaque :  
+## Replay Attaque :  
 
-Portail : 
+### Portail : 
 Nous allons pour commencer, essayer d'intercepter un signal d'une télécommande de portail :  
 la première chose à faire est de trouver sur quelle fréquence la telecommande va communiquer avec le portail (en géneral au alentour de 433 Mhz), souvent indiquer soit sur la telecommande, soit sur le site du constructeur. 
 Si ce n'est pas indiqué :  
@@ -167,7 +167,7 @@ figlet C'est ouvert !
 ```   
 [Regarder la video](https://www.youtube.com/watch?v=HM1JgZUscY0)
 
-Talkie-Walkie : 
+### Talkie-Walkie : 
 
 Il s'agit du même procédé, nous trouvons la fréquence, capturons le signal, le stockons et le rediffusons à notre guise. 
 
@@ -206,7 +206,7 @@ Etapes :
 ![Scan](https://user-images.githubusercontent.com/39098396/133304547-88aa74d9-4dc9-4198-ad24-1363f1e9f73b.png)
 
 
-# Radio Jamming : 
+## Radio Jamming : 
 
 Le jamming (Brouillage) est une technique (illégal bien sur) visant à perturber les fréquences comportant des informations, en submergant une fréquence avec du bruit. 
 
@@ -214,7 +214,7 @@ Il existe des appareils servant spécifiquement à effectuer ce genre d'actions 
 
 Le brouillage se distingue généralement des interférences qui peuvent survenir en raison de dysfonctionnements de l'appareil ou d'autres circonstances accidentelles.
 
-## Jamming Car Key 
+### Jamming Car Key 
 
 En émettant du bruit sur la fréquence d'une clés de voiture,le signal de la télécommande est 'noyé' parmis les fausses ondes émises :
 
@@ -226,7 +226,7 @@ Le module Jamming du Portapack Havoc nous permet d'emettre ce genre de bruit :
 
 Vidéo Démonstration : [Jamming Car Key](https://www.youtube.com/watch?v=p4drw8csLSE)
  
- ## Jamming Wifi ( 2.4GHz) 
+### Jamming Wifi ( 2.4GHz) 
 
 Les fréquences du WiFi sont les bandes 2,4 GHz et 5 GHz.
 
