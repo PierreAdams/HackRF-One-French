@@ -4,6 +4,7 @@ Table des matières :
 - [Présentation](https://github.com/PierreAdams/HackRF-One-French#pr%C3%A9sentation-sdr-w-hackrf-one) 
   - [sdr](https://github.com/PierreAdams/HackRF-One-French#sdr)
   - [HackRF One](https://github.com/PierreAdams/HackRF-One-French#hackrf-one)
+    - [Commandes HackRF One - Linux]()
   - [PortaPack](https://github.com/PierreAdams/HackRF-One-French#portapack)
     - [Configuration PortaPack](https://github.com/PierreAdams/HackRF-One-French#premier-branchement--mise-%C3%A0-jour-du-firmware-)
 - [Démonstration](https://github.com/PierreAdams/HackRF-One-French#d%C3%A9monstration-) 
@@ -38,6 +39,21 @@ Le HackRF est in émetteur-récepteur, crée par [Great Scott Gadget](https://gr
 __Prix__ : environ 300€ (Antenne comprise)  
 __Réception / Emission__ : de 10Mhz à 6Ghz
 
+## Commandes HackRF One : 
+
+__Hackrf_info__ : lors du branchement du hackRF One, cette commande permet d'avoir des informations sur sa version   
+
+__Hackrf_transfer__ : permet de capturer un transfère et de le restransmettre par la suite
+
+__hackrf_debug__ : Commande de debug du hackRF One 
+
+__hackrf_sweep__ : Commande qui va balayer un champ de fréquences et l'analyser 
+
+__hackrf_spiflash__ : Mettre à jour le firmware 
+
+__hackrf_cpldjtag__ : Mettre à jour le cpld
+
+
 ## PortaPack  
 Le PortaPack est une coque rigide avec un écran LCD et des touches de navigation
 [lien github](https://github.com/furrtek/portapack-havoc)  
@@ -60,7 +76,7 @@ Lorsque le firmware de votre portapack sera installé il sera toujours possible 
 --------------------------------------------------------------------
 
 
-## Premier Branchement + Mise à jour du Firmware :  
+### Premier Branchement + Mise à jour du Firmware :  
 
 Lorsque vous aurez reçu le HackRF, il faut d'abord mettre à jour le firmware et installer le paquet HackRF sur un PC:   
 installer le paquet hackrf (Linux) :   
@@ -94,21 +110,6 @@ Board ID Number: 2 (HackRF One)
 Firmware Version: 2018.01.1 (API:1.02)
 Part ID Number: 0xa000cb3c 0x00724357
 ```
-
-## Commandes HackRF One : 
-
-__Hackrf_info__ : lors du branchement du hackRF One, cette commande permet d'avoir des informations sur sa version   
-
-__Hackrf_transfer__ : permet de capturer un transfère et de le restransmettre par la suite
-
-__hackrf_debug__ : Commande de debug du hackRF One 
-
-__hackrf_sweep__ : Commande qui va balayer un champ de fréquences et l'analyser 
-
-__hackrf_spiflash__ : Mettre à jour le firmware 
-
-__hackrf_cpldjtag__ : Mettre à jour le cpld
-
 
 ## Petit rappel utile - Convertion MHz - Ghz 
 ![Scan](https://user-images.githubusercontent.com/39098396/79741752-109b2e00-8302-11ea-80d2-f7132bdcff0b.png)
