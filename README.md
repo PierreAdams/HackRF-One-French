@@ -185,7 +185,7 @@ et la rediffuse
 
 La plupart de nos voitures aujourd'hui sont livrées avec un porte-clé de déverouillage à distance, ce qui est incroyablement pratique, pratique certe, mais vulnérable...  
 
-> Pour ne pas que les voitures soit vulnérables à une attaque toute simple de Replay Attack, les constructeur ont équipé leurs (nouvelles) voitures d'un systeme de code roulant (rolling code system) chaque fois que vous appuyez sur le bouton de déverrouillage, la télécommande utilise un algorithme pour générer un nouveau code. et rend les ancien inutilisable, ce qui rend les attaques comme [celle ci](https://github.com/PierreAdams/HackRF-One-French/blob/master/README.md#portail-) impossible.
+> Pour ne pas que les voitures soit vulnérables à une attaque toute simple de Replay Attack, les constructeur ont équipé leurs (nouvelles) voitures d'un systeme de code roulant (rolling code system) chaque fois que vous appuyez sur le bouton de déverrouillage, la télécommande utilise un algorithme pour générer un nouveau code ce qui rend donc les ancien siganux inutilisables, une simple Replay Attack comme [celle ci](https://github.com/PierreAdams/HackRF-One-French/blob/master/README.md#portail-) est donc impossible.
 
 Je dois donc contourner ce problème pour effectuer mon attaque, je vais donc émettre le signal de mon porte clé suffisament loin de ma voiture pour pas que celle ci prenne en compte le signal émis et qu'il ne soit plus valide. 
 
