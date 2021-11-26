@@ -245,7 +245,7 @@ Méthodologie de l’attaque :
 5. Le brouillage s’arrete et le premier signal est lancé ce qui déverrouille la voiture.
 
 Le 2eme signal ( Rolling Code) émis par la victime est enregistré.  
-Comme la voiture à recue uniquement le premier signal, le rolling code du second signal est donc valide. (l'attaquant pourra donc déverouiller la voiture par la suite)
+Comme la voiture a reçu uniquement le premier signal, le rolling code du second signal est donc valide. (l'attaquant pourra donc déverouiller la voiture par la suite)
 
 ### Jamming Wifi ( 2.4GHz) 
 
