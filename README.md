@@ -12,6 +12,7 @@ Table des matières :
     - [Portail](https://github.com/PierreAdams/HackRF-One-French/blob/master/README.md#portail-)
     - [Takie Walkie](https://github.com/PierreAdams/HackRF-One-French#talkie-walkie-)
     - [Car Key replay Attaque](https://github.com/PierreAdams/HackRF-One-French#car-key-replay-attack) 
+    - [RollJam Attack](https://github.com/PierreAdams/HackRF-One-French#rolljam-attack)
   - [Jamming](https://github.com/PierreAdams/HackRF-One-French#radio-jamming-) 
     - [Car Key Jamming](https://github.com/PierreAdams/HackRF-One-French#jamming-car-key)
     - [Wifi Jamming](https://github.com/PierreAdams/HackRF-One-French#jamming-wifi--24ghz)
@@ -237,14 +238,14 @@ Cette attaque nécessite beaucoup de compétences et possède un très faible ra
 ![Scan](https://user-images.githubusercontent.com/39098396/143575294-31ba22b7-e968-4d29-a995-4faae05a43a4.jpeg)  
 
 Méthodologie de l’attaque :  
-Un brouillage radio est lancé sur la fréquence 433.92 qui est la fréquence du déverrouillage de la voiture.
-La victime tente de deverouiller une première fois la voiture en appuyant sur la clef, et donc en émettant un signal.
-Le signal est capturé et enregistré.
-La victime tente donc une deuxième fois de déverrouiller la voiture, toujours sans réussite.
-Le brouillage s’arrete et le premier signal est lancé ce qui déverrouille la voiture.
+1. Un brouillage radio est lancé sur la fréquence 433.92 qui est la fréquence du déverrouillage de la voiture.
+2. La victime tente de deverouiller une première fois la voiture en appuyant sur la clef, et donc en émettant un signal.
+3. Le signal est capturé et enregistré.
+4. La victime tente donc une deuxième fois de déverrouiller la voiture, toujours sans réussite.
+5. Le brouillage s’arrete et le premier signal est lancé ce qui déverrouille la voiture.
 
-Le 2eme signal ( Rolling Code) emis par la victime est enregistré.  
-Comme la voiture à capté uniquement le premier signal, le rolling code du second signal est donc valide. ( l'attaquand pourra donc déverouiller la voiture par la suite)
+Le 2eme signal ( Rolling Code) émis par la victime est enregistré.  
+Comme la voiture à recue uniquement le premier signal, le rolling code du second signal est donc valide. (l'attaquant pourra donc déverouiller la voiture par la suite)
 
 ### Jamming Wifi ( 2.4GHz) 
 
