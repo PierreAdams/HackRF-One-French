@@ -232,7 +232,7 @@ La plupart du temps nous avons aucune interaction avec la victime et donc aucun 
 
 ### RollJam Attack
 
-Il existe une méthode d’attaque qui ne nécessite en aucun cas la possession des clefs : Rolljam Attack 
+Il existe une méthode d’attaque qui ne nécessite en aucun cas la possession des clefs : Rolljam Attack   
 Cette attaque nécessite beaucoup de compétences et possède un très faible ratio de réussite, elle mélange brouillage (jamming) et replay Code Rolling.
 
 ![Scan](https://user-images.githubusercontent.com/39098396/143575294-31ba22b7-e968-4d29-a995-4faae05a43a4.jpeg)  
