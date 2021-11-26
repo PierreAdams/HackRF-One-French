@@ -229,8 +229,10 @@ Vidéo Démonstration : [Jamming Car Key](https://www.youtube.com/watch?v=p4drw8
 Cette attaque est certes très efficace, mais il est nécessaire de posséder la clé de voiture (tout du moins quelques instants afin de générer le signal).
 La plupart du temps nous avons aucune interaction avec la victime et donc aucun moyen de se procurer la clef de la voiture (à moins d’utiliser une attaque de social engineering...)
 
+### RollJam Attack
+
 Il existe une méthode d’attaque qui ne nécessite en aucun cas la possession des clefs : Rolljam Attack 
-Cette attaque nécessite beaucoup de compétence et possède un petit ratio de réussite, elle mélange brouillage (jamming) et replay Rolling.
+Cette attaque nécessite beaucoup de compétences et possède un très faible ratio de réussite, elle mélange brouillage (jamming) et replay Code Rolling.
 
 ![Scan](https://user-images.githubusercontent.com/39098396/143575294-31ba22b7-e968-4d29-a995-4faae05a43a4.jpeg)  
 
