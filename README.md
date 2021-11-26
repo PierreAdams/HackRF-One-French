@@ -225,7 +225,25 @@ Le module Jamming du Portapack Havoc nous permet d'emettre ce genre de bruit :
 ![Scan](https://user-images.githubusercontent.com/39098396/137525873-80687a54-d7b5-4ab0-b550-12ec9fdd61af.PNG)  
 
 Vidéo Démonstration : [Jamming Car Key](https://www.youtube.com/watch?v=p4drw8csLSE)
- 
+
+Cette attaque est certes très efficace, mais il est nécessaire de posséder la clé de voiture (tout du moins quelques instants afin de générer le signal).
+La plupart du temps nous avons aucune interaction avec la victime et donc aucun moyen de se procurer la clef de la voiture (à moins d’utiliser une attaque de social engineering...)
+
+Il existe une méthode d’attaque qui ne nécessite en aucun cas la possession des clefs : Rolljam Attack 
+Cette attaque nécessite beaucoup de compétence et possède un petit ratio de réussite, elle mélange brouillage (jamming) et replay Rolling.
+
+![Scan](https://user-images.githubusercontent.com/39098396/143575294-31ba22b7-e968-4d29-a995-4faae05a43a4.jpeg)  
+
+Méthodologie de l’attaque :  
+Un brouillage radio est lancé sur la fréquence 433.92 qui est la fréquence du déverrouillage de la voiture.
+La victime tente de deverouiller une première fois la voiture en appuyant sur la clef, et donc en émettant un signal.
+Le signal est capturé et enregistré.
+La victime tente donc une deuxième fois de déverrouiller la voiture, toujours sans réussite.
+Le brouillage s’arrete et le premier signal est lancé ce qui déverrouille la voiture.
+
+Le 2eme signal ( Rolling Code) emis par la victime est enregistré.  
+Comme la voiture à capté uniquement le premier signal, le rolling code du second signal est donc valide. ( l'attaquand pourra donc déverouiller la voiture par la suite)
+
 ### Jamming Wifi ( 2.4GHz) 
 
 Les fréquences du WiFi sont les bandes 2,4 GHz et 5 GHz.
