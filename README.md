@@ -432,7 +432,7 @@ __Fonctionnement d'un GPS :__ Un recepteur GPS fonctionne grace au calcul de la 
 
 ![Image](https://user-images.githubusercontent.com/39098396/129039739-0d750fc3-58a5-407b-bcb7-1504cb977551.png)
 
-la fréquence de signal d'un GPS basique est de 1575,42MHZ
+la fréquence de signal d'un GPS basique est de 1575,42MHz
 
 GPS-SDR-SIM (Compatible Linux et Windows) est un outil (disponible sur ce [repo](https://github.com/osqzss/gps-sdr-sim)) permettant de mener ce genre d'action. 
 
