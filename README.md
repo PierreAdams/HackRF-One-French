@@ -38,7 +38,7 @@ Depuis quelques années, la technologie des radios logiciels a fortement, entrai
 Le HackRF est in émetteur-récepteur, crée par [Great Scott Gadget](https://greatscottgadgets.com) en 2014   
 ![Scan](https://user-images.githubusercontent.com/39098396/79736639-6d92e600-82fa-11ea-8e76-a5e6a3ea749a.jpeg)  
 __Prix__ : environ 300€ (Antenne comprise)  
-__Réception / Emission__ : de 10Mhz à 6Ghz
+__Réception / Emission__ : de 10Mhz à 6GHz
 
 ## Commandes HackRF One : 
 
