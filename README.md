@@ -231,6 +231,7 @@ Le module Jamming du Portapack Havoc nous permet d'emettre ce genre de bruit :
 ![Scan](https://user-images.githubusercontent.com/39098396/137525873-80687a54-d7b5-4ab0-b550-12ec9fdd61af.PNG)  
 
 https://user-images.githubusercontent.com/39098396/160119238-bb2879fa-e6a5-473a-83e2-37b8613054cb.mp4
+
 [Youtube Vidéo](https://www.youtube.com/watch?v=p4drw8csLSE)
 
 Cette attaque est certes très efficace, mais il est nécessaire de posséder la clé de voiture (tout du moins quelques instants afin de générer le signal).
@@ -273,6 +274,7 @@ Nous pouvons ensuite construire un graph Gnuradio afin de génerer du bruit sur 
 > Cette démonstration est en aucun cas à reproduire chez vous, elle nous sert uniquement à comprendre comment le jamming WIFI fonctionne :  
 
 https://user-images.githubusercontent.com/39098396/160118715-cada10d4-1dab-441a-ad22-54f3752217e8.mp4
+
 [Youtube Vidéo](https://youtu.be/SNp44YsZjNo)
 
 
