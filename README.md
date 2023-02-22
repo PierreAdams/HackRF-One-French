@@ -400,9 +400,6 @@ Le mode utilisé pour recevoir les images SSTV de la station est le mode **PD120
 Nous pouvons aussi uplaoder les images que nous avons recus : [spaceflightsoftwaret](https://www.spaceflightsoftware.com/ARISS_SSTV/index.php)
 
 
-Challenge très intéressant de la plateforme [Root-me](https://www.root-me.org/) :     
-[Root-me challenge RF - Transmission Satellite](https://www.root-me.org/fr/Challenges/Reseau/RF-Transmission-satellite)
-
 *Comment faire : *   
 Dans un premier temps il est neccessaire de savoir où se situe la Station Spatial International : 
 - [Orbitron](http://blog.f1src.org/page/orbitron.htm) (Software)
